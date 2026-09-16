@@ -1,0 +1,1001 @@
+CustomerID,CustomerName,Segment,Region,Profile
+CUST-10000,Barbara Moore,Corporate,South,Regular
+CUST-10001,David Gonzalez,Home Office,South,Churn-Cohort
+CUST-10002,Christopher Martin,Corporate,East,Occasional
+CUST-10003,Jennifer Rodriguez,Corporate,West,Regular
+CUST-10004,Nancy Martin,Home Office,South,Regular
+CUST-10005,Mary Gonzalez,Corporate,West,Regular
+CUST-10006,Mary Thomas,Corporate,Central,VIP
+CUST-10007,John Hernandez,Corporate,Central,Churn-Cohort
+CUST-10008,David Thomas,Home Office,East,Occasional
+CUST-10009,Elizabeth Jones,Corporate,South,Occasional
+CUST-10010,Richard Rodriguez,Home Office,South,VIP
+CUST-10011,Nancy Williams,Consumer,South,Churn-Cohort
+CUST-10012,William Wilson,Home Office,South,Churn-Cohort
+CUST-10013,Charles Lopez,Consumer,West,Regular
+CUST-10014,Robert Martinez,Home Office,South,Regular
+CUST-10015,Michael Taylor,Home Office,East,Regular
+CUST-10016,Jennifer Miller,Consumer,East,Regular
+CUST-10017,Elizabeth Johnson,Corporate,East,Regular
+CUST-10018,Susan Miller,Corporate,Central,Regular
+CUST-10019,Thomas Taylor,Corporate,East,Regular
+CUST-10020,John Davis,Corporate,South,Occasional
+CUST-10021,Nancy Anderson,Consumer,South,Regular
+CUST-10022,Christopher Moore,Corporate,Central,Regular
+CUST-10023,Jennifer Rodriguez,Home Office,East,Regular
+CUST-10024,Barbara Smith,Corporate,East,Regular
+CUST-10025,Jennifer Jackson,Consumer,West,Occasional
+CUST-10026,Elizabeth Miller,Corporate,South,Regular
+CUST-10027,Charles Smith,Home Office,East,Regular
+CUST-10028,Sarah Jones,Home Office,West,Regular
+CUST-10029,Nancy Smith,Consumer,Central,VIP
+CUST-10030,Nancy Martinez,Home Office,Central,Occasional
+CUST-10031,Jessica Gonzalez,Corporate,South,Regular
+CUST-10032,David Miller,Corporate,Central,VIP
+CUST-10033,Charles Martin,Corporate,East,Churn-Cohort
+CUST-10034,John Taylor,Home Office,Central,Churn-Cohort
+CUST-10035,Karen Martin,Home Office,Central,Churn-Cohort
+CUST-10036,Barbara Brown,Corporate,East,Regular
+CUST-10037,Richard Rodriguez,Home Office,Central,VIP
+CUST-10038,David Rodriguez,Home Office,Central,Occasional
+CUST-10039,William Jones,Home Office,West,Regular
+CUST-10040,Mary Martin,Corporate,Central,Regular
+CUST-10041,Michael Smith,Home Office,South,Regular
+CUST-10042,Barbara Rodriguez,Corporate,South,VIP
+CUST-10043,Joseph Johnson,Home Office,West,Churn-Cohort
+CUST-10044,Richard Davis,Home Office,South,Regular
+CUST-10045,Susan Taylor,Corporate,West,Occasional
+CUST-10046,Karen Garcia,Corporate,East,Regular
+CUST-10047,Sarah Jones,Home Office,Central,Regular
+CUST-10048,Karen Garcia,Home Office,Central,Regular
+CUST-10049,Robert Davis,Corporate,West,Regular
+CUST-10050,Barbara Wilson,Corporate,Central,Churn-Cohort
+CUST-10051,David Jackson,Corporate,South,Occasional
+CUST-10052,Patricia Thomas,Consumer,East,Churn-Cohort
+CUST-10053,Sarah Miller,Home Office,East,Churn-Cohort
+CUST-10054,Joseph Taylor,Corporate,South,Regular
+CUST-10055,Mary Jones,Consumer,West,Churn-Cohort
+CUST-10056,Richard Wilson,Home Office,South,VIP
+CUST-10057,Michael Hernandez,Home Office,West,Regular
+CUST-10058,Robert Thomas,Corporate,West,VIP
+CUST-10059,Richard Johnson,Consumer,South,Regular
+CUST-10060,David Miller,Consumer,West,Regular
+CUST-10061,Sarah Williams,Consumer,South,Regular
+CUST-10062,Jessica Gonzalez,Corporate,South,Churn-Cohort
+CUST-10063,Joseph Smith,Consumer,West,Regular
+CUST-10064,Susan Smith,Corporate,West,Regular
+CUST-10065,John Smith,Home Office,West,Regular
+CUST-10066,Elizabeth Lopez,Corporate,West,Regular
+CUST-10067,Patricia Gonzalez,Home Office,Central,Churn-Cohort
+CUST-10068,Jennifer Williams,Consumer,Central,VIP
+CUST-10069,Barbara Anderson,Home Office,Central,Churn-Cohort
+CUST-10070,Jessica Jones,Corporate,South,Occasional
+CUST-10071,Susan Miller,Consumer,South,Regular
+CUST-10072,John Davis,Consumer,West,VIP
+CUST-10073,William Smith,Home Office,West,Churn-Cohort
+CUST-10074,Patricia Lopez,Home Office,East,Occasional
+CUST-10075,Joseph Rodriguez,Home Office,East,Occasional
+CUST-10076,Nancy Johnson,Home Office,East,Occasional
+CUST-10077,John Johnson,Home Office,East,VIP
+CUST-10078,Jessica Anderson,Corporate,East,Regular
+CUST-10079,Karen Rodriguez,Corporate,West,Regular
+CUST-10080,William Smith,Corporate,South,Churn-Cohort
+CUST-10081,Patricia Taylor,Corporate,West,Occasional
+CUST-10082,Jessica Brown,Home Office,East,Regular
+CUST-10083,Barbara Brown,Consumer,South,VIP
+CUST-10084,William Martin,Consumer,Central,Regular
+CUST-10085,Charles Miller,Corporate,South,Regular
+CUST-10086,Barbara Garcia,Consumer,South,Occasional
+CUST-10087,William Thomas,Corporate,West,Occasional
+CUST-10088,John Smith,Home Office,East,Churn-Cohort
+CUST-10089,Patricia Jackson,Home Office,South,Regular
+CUST-10090,Michael Williams,Home Office,East,Regular
+CUST-10091,Patricia Rodriguez,Home Office,West,Occasional
+CUST-10092,Thomas Martinez,Corporate,South,Occasional
+CUST-10093,Mary Brown,Consumer,East,Regular
+CUST-10094,Barbara Lopez,Home Office,Central,Occasional
+CUST-10095,Jessica Brown,Consumer,East,Regular
+CUST-10096,John Jones,Home Office,West,Regular
+CUST-10097,Richard Lopez,Corporate,Central,Regular
+CUST-10098,Robert Lopez,Corporate,West,VIP
+CUST-10099,Patricia Gonzalez,Corporate,South,Regular
+CUST-10100,David Gonzalez,Home Office,South,VIP
+CUST-10101,Jessica Garcia,Consumer,West,Occasional
+CUST-10102,Mary Garcia,Consumer,South,Regular
+CUST-10103,Christopher Thomas,Home Office,South,Regular
+CUST-10104,Jennifer Martin,Corporate,Central,Churn-Cohort
+CUST-10105,Nancy Smith,Home Office,West,Regular
+CUST-10106,Sarah Thomas,Consumer,South,Regular
+CUST-10107,Thomas Johnson,Consumer,Central,Occasional
+CUST-10108,Richard Smith,Home Office,West,Regular
+CUST-10109,Richard Taylor,Home Office,East,VIP
+CUST-10110,Jessica Davis,Corporate,Central,Regular
+CUST-10111,Joseph Jones,Home Office,East,Regular
+CUST-10112,John Garcia,Home Office,South,Churn-Cohort
+CUST-10113,Sarah Garcia,Consumer,South,Churn-Cohort
+CUST-10114,Richard Davis,Corporate,Central,Occasional
+CUST-10115,Mary Taylor,Consumer,South,Churn-Cohort
+CUST-10116,Joseph Davis,Consumer,South,Churn-Cohort
+CUST-10117,Thomas Jackson,Corporate,East,Regular
+CUST-10118,Sarah Anderson,Corporate,East,Churn-Cohort
+CUST-10119,Sarah Smith,Consumer,South,Regular
+CUST-10120,Jessica Johnson,Home Office,East,Churn-Cohort
+CUST-10121,Robert Martin,Home Office,Central,Churn-Cohort
+CUST-10122,Charles Moore,Consumer,South,Regular
+CUST-10123,Richard Lopez,Consumer,West,Regular
+CUST-10124,Thomas Hernandez,Home Office,South,Regular
+CUST-10125,Susan Anderson,Consumer,East,Regular
+CUST-10126,Elizabeth Smith,Corporate,Central,Churn-Cohort
+CUST-10127,Barbara Moore,Home Office,Central,Churn-Cohort
+CUST-10128,Patricia Johnson,Consumer,South,VIP
+CUST-10129,Michael Wilson,Consumer,Central,Regular
+CUST-10130,Nancy Miller,Consumer,East,Regular
+CUST-10131,Joseph Miller,Corporate,West,Regular
+CUST-10132,Richard Brown,Corporate,East,Regular
+CUST-10133,Christopher Brown,Corporate,South,Regular
+CUST-10134,Christopher Taylor,Consumer,South,Churn-Cohort
+CUST-10135,John Taylor,Home Office,East,Regular
+CUST-10136,Karen Wilson,Home Office,South,Regular
+CUST-10137,Charles Garcia,Home Office,West,Occasional
+CUST-10138,Michael Brown,Corporate,Central,Regular
+CUST-10139,Charles Gonzalez,Corporate,West,Churn-Cohort
+CUST-10140,David Gonzalez,Corporate,Central,Churn-Cohort
+CUST-10141,Thomas Jones,Consumer,South,Regular
+CUST-10142,Nancy Taylor,Corporate,Central,Regular
+CUST-10143,Karen Miller,Consumer,West,Regular
+CUST-10144,Nancy Martinez,Home Office,Central,Regular
+CUST-10145,Michael Garcia,Home Office,Central,VIP
+CUST-10146,Patricia Lopez,Home Office,South,Occasional
+CUST-10147,Christopher Jackson,Home Office,South,Regular
+CUST-10148,Karen Martinez,Corporate,East,VIP
+CUST-10149,Charles Brown,Consumer,South,Regular
+CUST-10150,Michael Johnson,Home Office,East,Churn-Cohort
+CUST-10151,William Rodriguez,Consumer,Central,Regular
+CUST-10152,David Jones,Consumer,Central,Regular
+CUST-10153,William Moore,Consumer,Central,Regular
+CUST-10154,Thomas Brown,Home Office,West,Churn-Cohort
+CUST-10155,Karen Gonzalez,Consumer,Central,Regular
+CUST-10156,Mary Gonzalez,Corporate,South,Occasional
+CUST-10157,Richard Moore,Consumer,East,Occasional
+CUST-10158,David Miller,Home Office,South,Regular
+CUST-10159,Elizabeth Lopez,Home Office,West,Occasional
+CUST-10160,William Martinez,Corporate,West,Regular
+CUST-10161,Robert Garcia,Consumer,East,Occasional
+CUST-10162,Joseph Johnson,Corporate,Central,Occasional
+CUST-10163,Karen Rodriguez,Consumer,West,Regular
+CUST-10164,Christopher Rodriguez,Consumer,Central,VIP
+CUST-10165,Thomas Jones,Consumer,West,Churn-Cohort
+CUST-10166,Richard Martin,Consumer,Central,Regular
+CUST-10167,Sarah Jackson,Home Office,Central,Regular
+CUST-10168,Robert Hernandez,Home Office,West,VIP
+CUST-10169,Jennifer Taylor,Consumer,West,Regular
+CUST-10170,Jessica Moore,Home Office,South,Occasional
+CUST-10171,Robert Lopez,Consumer,West,VIP
+CUST-10172,Richard Hernandez,Corporate,Central,Regular
+CUST-10173,William Martin,Home Office,South,Regular
+CUST-10174,Karen Smith,Consumer,Central,Occasional
+CUST-10175,Thomas Davis,Home Office,West,Regular
+CUST-10176,Mary Hernandez,Corporate,East,Occasional
+CUST-10177,Joseph Rodriguez,Home Office,Central,Regular
+CUST-10178,John Taylor,Corporate,South,Churn-Cohort
+CUST-10179,Sarah Johnson,Corporate,West,Regular
+CUST-10180,Richard Taylor,Consumer,East,Regular
+CUST-10181,Jennifer Moore,Home Office,East,Regular
+CUST-10182,Robert Miller,Home Office,West,Churn-Cohort
+CUST-10183,Jessica Brown,Consumer,South,Churn-Cohort
+CUST-10184,Robert Jones,Consumer,South,Regular
+CUST-10185,Richard Johnson,Consumer,East,Occasional
+CUST-10186,Mary Garcia,Corporate,East,Churn-Cohort
+CUST-10187,Christopher Davis,Corporate,South,Regular
+CUST-10188,Joseph Anderson,Home Office,South,Regular
+CUST-10189,Jessica Hernandez,Consumer,South,Regular
+CUST-10190,Patricia Moore,Consumer,East,VIP
+CUST-10191,Christopher Johnson,Home Office,East,Churn-Cohort
+CUST-10192,Susan Taylor,Consumer,Central,Churn-Cohort
+CUST-10193,Barbara Martin,Consumer,Central,Occasional
+CUST-10194,Thomas Gonzalez,Corporate,East,Regular
+CUST-10195,Sarah Garcia,Home Office,West,Regular
+CUST-10196,Michael Gonzalez,Home Office,Central,Occasional
+CUST-10197,Michael Martinez,Home Office,Central,Churn-Cohort
+CUST-10198,John Moore,Home Office,West,Churn-Cohort
+CUST-10199,Patricia Johnson,Consumer,South,Occasional
+CUST-10200,Karen Moore,Consumer,Central,Occasional
+CUST-10201,William Lopez,Consumer,South,VIP
+CUST-10202,Charles Jones,Consumer,West,Regular
+CUST-10203,Elizabeth Martin,Corporate,West,Churn-Cohort
+CUST-10204,Patricia Garcia,Home Office,East,Occasional
+CUST-10205,Karen Anderson,Home Office,East,VIP
+CUST-10206,Barbara Williams,Corporate,East,Regular
+CUST-10207,William Jackson,Corporate,Central,Occasional
+CUST-10208,Susan Jones,Home Office,West,VIP
+CUST-10209,Patricia Martinez,Home Office,East,Regular
+CUST-10210,William Hernandez,Corporate,South,Regular
+CUST-10211,Richard Martin,Home Office,Central,Occasional
+CUST-10212,Christopher Jones,Home Office,Central,Occasional
+CUST-10213,Richard Wilson,Consumer,East,Regular
+CUST-10214,Richard Davis,Consumer,South,Occasional
+CUST-10215,David Lopez,Consumer,Central,Regular
+CUST-10216,Sarah Anderson,Corporate,Central,Regular
+CUST-10217,Barbara Thomas,Home Office,East,Occasional
+CUST-10218,Jennifer Martin,Consumer,Central,Occasional
+CUST-10219,Michael Moore,Consumer,Central,Churn-Cohort
+CUST-10220,Robert Williams,Consumer,East,Occasional
+CUST-10221,Christopher Jackson,Corporate,West,Regular
+CUST-10222,Mary Moore,Corporate,South,VIP
+CUST-10223,Michael Lopez,Corporate,West,Regular
+CUST-10224,Christopher Martinez,Consumer,South,Regular
+CUST-10225,Charles Taylor,Consumer,South,Regular
+CUST-10226,Susan Taylor,Consumer,West,Churn-Cohort
+CUST-10227,Nancy Garcia,Home Office,West,Regular
+CUST-10228,Thomas Garcia,Consumer,West,Churn-Cohort
+CUST-10229,Sarah Lopez,Consumer,West,Occasional
+CUST-10230,Sarah Davis,Consumer,Central,Occasional
+CUST-10231,Susan Davis,Consumer,West,Regular
+CUST-10232,Charles Lopez,Corporate,South,Regular
+CUST-10233,Thomas Johnson,Consumer,Central,Regular
+CUST-10234,Patricia Taylor,Home Office,Central,Regular
+CUST-10235,David Jackson,Home Office,West,Occasional
+CUST-10236,Joseph Gonzalez,Corporate,East,Regular
+CUST-10237,Charles Rodriguez,Corporate,West,VIP
+CUST-10238,Charles Gonzalez,Corporate,Central,Occasional
+CUST-10239,Sarah Thomas,Home Office,East,Regular
+CUST-10240,Charles Jones,Corporate,West,Churn-Cohort
+CUST-10241,Elizabeth Williams,Home Office,Central,Churn-Cohort
+CUST-10242,William Jones,Consumer,West,Churn-Cohort
+CUST-10243,Susan Martin,Home Office,East,Regular
+CUST-10244,Elizabeth Wilson,Corporate,East,VIP
+CUST-10245,Sarah Thomas,Corporate,West,Churn-Cohort
+CUST-10246,Christopher Garcia,Home Office,South,Regular
+CUST-10247,John Davis,Consumer,West,Churn-Cohort
+CUST-10248,Christopher Jackson,Consumer,West,Churn-Cohort
+CUST-10249,Charles Johnson,Home Office,West,Churn-Cohort
+CUST-10250,Mary Garcia,Corporate,West,Regular
+CUST-10251,Charles Gonzalez,Home Office,East,Regular
+CUST-10252,Barbara Williams,Consumer,South,Churn-Cohort
+CUST-10253,Nancy Thomas,Corporate,West,Regular
+CUST-10254,Elizabeth Wilson,Home Office,West,Regular
+CUST-10255,Christopher Garcia,Home Office,Central,Regular
+CUST-10256,Jennifer Hernandez,Corporate,East,Churn-Cohort
+CUST-10257,Elizabeth Gonzalez,Corporate,West,Occasional
+CUST-10258,Patricia Smith,Consumer,South,Regular
+CUST-10259,Michael Martin,Consumer,West,VIP
+CUST-10260,Sarah Martin,Home Office,East,Occasional
+CUST-10261,Karen Taylor,Consumer,East,Churn-Cohort
+CUST-10262,Sarah Jones,Home Office,East,Regular
+CUST-10263,Jessica Taylor,Corporate,Central,Regular
+CUST-10264,Mary Taylor,Corporate,West,Churn-Cohort
+CUST-10265,Sarah Gonzalez,Corporate,East,Occasional
+CUST-10266,Jessica Jones,Corporate,South,Occasional
+CUST-10267,Elizabeth Williams,Corporate,South,Occasional
+CUST-10268,David Miller,Consumer,East,Regular
+CUST-10269,Christopher Taylor,Consumer,East,Regular
+CUST-10270,Joseph Miller,Home Office,Central,Churn-Cohort
+CUST-10271,Jessica Lopez,Consumer,West,Churn-Cohort
+CUST-10272,Jessica Jackson,Corporate,Central,Churn-Cohort
+CUST-10273,Karen Wilson,Home Office,Central,Churn-Cohort
+CUST-10274,Nancy Rodriguez,Home Office,South,Regular
+CUST-10275,William Wilson,Home Office,South,Regular
+CUST-10276,Jennifer Lopez,Home Office,South,Occasional
+CUST-10277,David Martinez,Home Office,Central,Occasional
+CUST-10278,Joseph Jones,Home Office,East,Occasional
+CUST-10279,Elizabeth Anderson,Home Office,West,Occasional
+CUST-10280,Patricia Miller,Home Office,South,Churn-Cohort
+CUST-10281,Richard Moore,Home Office,East,Regular
+CUST-10282,Jennifer Gonzalez,Home Office,East,Regular
+CUST-10283,Robert Jones,Corporate,South,VIP
+CUST-10284,Robert Williams,Corporate,West,Regular
+CUST-10285,Susan Williams,Home Office,East,VIP
+CUST-10286,Joseph Gonzalez,Home Office,Central,Regular
+CUST-10287,Nancy Johnson,Consumer,South,Regular
+CUST-10288,Thomas Smith,Consumer,Central,Regular
+CUST-10289,William Johnson,Home Office,West,Regular
+CUST-10290,Nancy Garcia,Home Office,East,VIP
+CUST-10291,Susan Davis,Home Office,East,VIP
+CUST-10292,Jennifer Williams,Corporate,South,Churn-Cohort
+CUST-10293,Susan Gonzalez,Corporate,West,Regular
+CUST-10294,Charles Smith,Home Office,East,Regular
+CUST-10295,Robert Moore,Corporate,Central,Regular
+CUST-10296,Susan Rodriguez,Consumer,West,Occasional
+CUST-10297,Thomas Gonzalez,Home Office,East,Regular
+CUST-10298,David Garcia,Corporate,East,Occasional
+CUST-10299,Karen Williams,Home Office,Central,VIP
+CUST-10300,Richard Brown,Home Office,Central,VIP
+CUST-10301,Karen Jackson,Corporate,South,Regular
+CUST-10302,Joseph Jackson,Corporate,West,Regular
+CUST-10303,Richard Anderson,Home Office,South,Occasional
+CUST-10304,Christopher Smith,Corporate,East,Occasional
+CUST-10305,David Williams,Corporate,West,Churn-Cohort
+CUST-10306,Elizabeth Hernandez,Corporate,Central,Regular
+CUST-10307,Charles Moore,Consumer,Central,Regular
+CUST-10308,Elizabeth Martinez,Consumer,South,Occasional
+CUST-10309,Richard Williams,Home Office,West,Regular
+CUST-10310,Sarah Hernandez,Corporate,West,Regular
+CUST-10311,Christopher Rodriguez,Consumer,West,VIP
+CUST-10312,Sarah Miller,Consumer,West,VIP
+CUST-10313,David Miller,Consumer,West,Churn-Cohort
+CUST-10314,Elizabeth Martin,Corporate,West,Churn-Cohort
+CUST-10315,Patricia Brown,Consumer,South,Occasional
+CUST-10316,Nancy Smith,Home Office,East,Regular
+CUST-10317,Sarah Lopez,Home Office,Central,Regular
+CUST-10318,Sarah Jackson,Corporate,South,Regular
+CUST-10319,Jennifer Taylor,Corporate,South,Regular
+CUST-10320,Elizabeth Jackson,Consumer,East,Regular
+CUST-10321,Charles Wilson,Corporate,East,Occasional
+CUST-10322,Charles Lopez,Corporate,West,Occasional
+CUST-10323,Thomas Brown,Home Office,South,Regular
+CUST-10324,Richard Smith,Consumer,West,Churn-Cohort
+CUST-10325,Joseph Jackson,Consumer,Central,Occasional
+CUST-10326,Susan Martin,Corporate,West,Regular
+CUST-10327,Karen Rodriguez,Consumer,Central,Occasional
+CUST-10328,Sarah Martin,Corporate,Central,Regular
+CUST-10329,Jennifer Thomas,Corporate,West,Regular
+CUST-10330,Jessica Lopez,Corporate,South,Regular
+CUST-10331,David Anderson,Consumer,West,Occasional
+CUST-10332,Christopher Davis,Consumer,Central,VIP
+CUST-10333,Elizabeth Moore,Corporate,South,Regular
+CUST-10334,William Jones,Home Office,West,VIP
+CUST-10335,Sarah Smith,Consumer,South,VIP
+CUST-10336,Sarah Jones,Home Office,Central,Churn-Cohort
+CUST-10337,Sarah Martinez,Corporate,East,Occasional
+CUST-10338,Joseph Brown,Home Office,West,Regular
+CUST-10339,Mary Miller,Corporate,South,VIP
+CUST-10340,Patricia Anderson,Home Office,Central,Regular
+CUST-10341,David Lopez,Corporate,Central,Regular
+CUST-10342,Susan Smith,Corporate,East,Regular
+CUST-10343,Susan Martin,Consumer,West,Regular
+CUST-10344,Barbara Lopez,Corporate,South,Regular
+CUST-10345,Thomas Williams,Corporate,Central,Occasional
+CUST-10346,Thomas Jones,Consumer,Central,Occasional
+CUST-10347,Jessica Martin,Home Office,South,VIP
+CUST-10348,Robert Williams,Consumer,Central,Regular
+CUST-10349,Elizabeth Hernandez,Corporate,Central,Occasional
+CUST-10350,David Martin,Home Office,South,Regular
+CUST-10351,David Anderson,Corporate,South,Churn-Cohort
+CUST-10352,Jessica Garcia,Consumer,East,Occasional
+CUST-10353,Michael Davis,Home Office,Central,Regular
+CUST-10354,Robert Miller,Consumer,South,VIP
+CUST-10355,Patricia Brown,Consumer,South,Occasional
+CUST-10356,Karen Johnson,Consumer,South,VIP
+CUST-10357,Charles Williams,Consumer,Central,Regular
+CUST-10358,Nancy Jones,Consumer,South,Churn-Cohort
+CUST-10359,Barbara Davis,Consumer,Central,Regular
+CUST-10360,Thomas Jones,Consumer,West,Regular
+CUST-10361,John Johnson,Home Office,Central,Occasional
+CUST-10362,Richard Thomas,Corporate,Central,Regular
+CUST-10363,Karen Anderson,Consumer,West,Regular
+CUST-10364,Christopher Martin,Corporate,South,Churn-Cohort
+CUST-10365,Charles Moore,Corporate,Central,Regular
+CUST-10366,Sarah Moore,Consumer,East,Churn-Cohort
+CUST-10367,Thomas Martinez,Corporate,South,Churn-Cohort
+CUST-10368,David Jones,Corporate,East,Regular
+CUST-10369,John Taylor,Consumer,Central,VIP
+CUST-10370,Barbara Thomas,Home Office,East,Regular
+CUST-10371,Sarah Thomas,Corporate,East,VIP
+CUST-10372,Jessica Martinez,Home Office,West,VIP
+CUST-10373,John Moore,Corporate,West,Occasional
+CUST-10374,Jessica Moore,Corporate,South,VIP
+CUST-10375,Elizabeth Garcia,Home Office,South,Regular
+CUST-10376,Joseph Davis,Corporate,East,Churn-Cohort
+CUST-10377,Jessica Davis,Home Office,Central,VIP
+CUST-10378,Barbara Moore,Corporate,South,Churn-Cohort
+CUST-10379,William Williams,Consumer,West,Regular
+CUST-10380,Barbara Brown,Home Office,South,Regular
+CUST-10381,Nancy Anderson,Corporate,South,Occasional
+CUST-10382,William Hernandez,Consumer,West,Occasional
+CUST-10383,Mary Moore,Consumer,West,Churn-Cohort
+CUST-10384,Patricia Martinez,Corporate,West,Occasional
+CUST-10385,Thomas Smith,Consumer,East,Churn-Cohort
+CUST-10386,Michael Smith,Corporate,West,Regular
+CUST-10387,Richard Wilson,Corporate,South,Regular
+CUST-10388,Susan Anderson,Home Office,East,Occasional
+CUST-10389,Richard Williams,Consumer,East,Churn-Cohort
+CUST-10390,David Gonzalez,Consumer,South,Churn-Cohort
+CUST-10391,Jennifer Miller,Corporate,South,Regular
+CUST-10392,John Brown,Home Office,West,Regular
+CUST-10393,Joseph Anderson,Consumer,East,Occasional
+CUST-10394,William Anderson,Home Office,East,Regular
+CUST-10395,Charles Miller,Corporate,South,Churn-Cohort
+CUST-10396,Barbara Hernandez,Consumer,East,Churn-Cohort
+CUST-10397,Karen Taylor,Consumer,Central,Regular
+CUST-10398,Sarah Martinez,Consumer,Central,Occasional
+CUST-10399,Mary Miller,Consumer,West,Occasional
+CUST-10400,Jessica Hernandez,Consumer,West,Regular
+CUST-10401,David Jackson,Consumer,South,Churn-Cohort
+CUST-10402,Elizabeth Smith,Consumer,South,Regular
+CUST-10403,Nancy Jones,Corporate,East,Churn-Cohort
+CUST-10404,Elizabeth Garcia,Corporate,East,Regular
+CUST-10405,Nancy Hernandez,Home Office,East,Churn-Cohort
+CUST-10406,Mary Lopez,Home Office,West,Regular
+CUST-10407,Karen Brown,Consumer,South,VIP
+CUST-10408,Elizabeth Hernandez,Home Office,Central,Churn-Cohort
+CUST-10409,Thomas Miller,Consumer,South,VIP
+CUST-10410,Susan Jones,Corporate,East,Regular
+CUST-10411,Sarah Anderson,Home Office,Central,Churn-Cohort
+CUST-10412,Karen Thomas,Consumer,West,Churn-Cohort
+CUST-10413,Karen Lopez,Corporate,South,Regular
+CUST-10414,David Martin,Home Office,West,Occasional
+CUST-10415,Robert Taylor,Consumer,South,Regular
+CUST-10416,Barbara Rodriguez,Home Office,Central,Regular
+CUST-10417,Thomas Smith,Home Office,South,Regular
+CUST-10418,Jennifer Smith,Home Office,Central,Occasional
+CUST-10419,Nancy Davis,Corporate,East,Occasional
+CUST-10420,Karen Gonzalez,Consumer,South,Occasional
+CUST-10421,Karen Jones,Home Office,Central,Occasional
+CUST-10422,Richard Wilson,Home Office,Central,VIP
+CUST-10423,Patricia Brown,Home Office,East,Regular
+CUST-10424,Mary Jones,Consumer,East,VIP
+CUST-10425,William Brown,Corporate,West,Regular
+CUST-10426,Patricia Johnson,Home Office,South,Regular
+CUST-10427,Sarah Taylor,Home Office,Central,Churn-Cohort
+CUST-10428,Mary Lopez,Consumer,East,Regular
+CUST-10429,John Miller,Home Office,South,Regular
+CUST-10430,Robert Anderson,Home Office,East,Regular
+CUST-10431,Susan Moore,Home Office,South,Occasional
+CUST-10432,Susan Johnson,Home Office,Central,Occasional
+CUST-10433,Charles Johnson,Home Office,East,Regular
+CUST-10434,Barbara Williams,Consumer,East,VIP
+CUST-10435,Patricia Davis,Home Office,South,Occasional
+CUST-10436,William Miller,Home Office,West,VIP
+CUST-10437,Christopher Garcia,Home Office,South,Churn-Cohort
+CUST-10438,Patricia Jackson,Corporate,South,Occasional
+CUST-10439,Jessica Brown,Consumer,West,VIP
+CUST-10440,Karen Gonzalez,Home Office,Central,VIP
+CUST-10441,Jennifer Moore,Home Office,South,Churn-Cohort
+CUST-10442,Susan Hernandez,Home Office,Central,Regular
+CUST-10443,Susan Wilson,Home Office,South,Regular
+CUST-10444,Richard Martin,Consumer,West,Churn-Cohort
+CUST-10445,Joseph Moore,Home Office,Central,Churn-Cohort
+CUST-10446,Susan Anderson,Corporate,South,Churn-Cohort
+CUST-10447,John Johnson,Corporate,East,Occasional
+CUST-10448,Charles Jones,Corporate,East,Regular
+CUST-10449,Barbara Davis,Consumer,Central,VIP
+CUST-10450,John Rodriguez,Home Office,West,Occasional
+CUST-10451,Patricia Johnson,Corporate,Central,Regular
+CUST-10452,Michael Jones,Corporate,Central,Regular
+CUST-10453,Christopher Davis,Consumer,Central,Churn-Cohort
+CUST-10454,Barbara Williams,Home Office,South,Regular
+CUST-10455,Christopher Miller,Home Office,East,Regular
+CUST-10456,Richard Thomas,Consumer,South,VIP
+CUST-10457,Christopher Brown,Home Office,Central,Regular
+CUST-10458,Mary Jackson,Corporate,East,VIP
+CUST-10459,Mary Hernandez,Corporate,South,Regular
+CUST-10460,Jessica Brown,Consumer,East,Regular
+CUST-10461,Joseph Johnson,Corporate,East,Occasional
+CUST-10462,Richard Moore,Home Office,West,Occasional
+CUST-10463,Richard Taylor,Home Office,West,Regular
+CUST-10464,Michael Johnson,Home Office,South,Churn-Cohort
+CUST-10465,Thomas Martin,Home Office,East,Regular
+CUST-10466,Elizabeth Wilson,Corporate,South,Regular
+CUST-10467,Michael Jones,Corporate,East,Churn-Cohort
+CUST-10468,Sarah Jackson,Home Office,East,Regular
+CUST-10469,Karen Gonzalez,Corporate,East,Churn-Cohort
+CUST-10470,Joseph Taylor,Corporate,West,VIP
+CUST-10471,Michael Thomas,Home Office,West,Churn-Cohort
+CUST-10472,Sarah Gonzalez,Home Office,West,VIP
+CUST-10473,Karen Martin,Home Office,West,Churn-Cohort
+CUST-10474,Elizabeth Williams,Corporate,South,Regular
+CUST-10475,Richard Jackson,Consumer,East,Churn-Cohort
+CUST-10476,Jessica Wilson,Corporate,Central,VIP
+CUST-10477,William Hernandez,Corporate,East,Regular
+CUST-10478,Barbara Garcia,Corporate,South,Churn-Cohort
+CUST-10479,Nancy Jones,Corporate,East,Regular
+CUST-10480,Elizabeth Miller,Home Office,Central,Occasional
+CUST-10481,Michael Williams,Consumer,East,Occasional
+CUST-10482,Elizabeth Martin,Consumer,Central,Regular
+CUST-10483,John Hernandez,Home Office,East,Occasional
+CUST-10484,Barbara Anderson,Corporate,East,Regular
+CUST-10485,Richard Miller,Home Office,West,Churn-Cohort
+CUST-10486,William Moore,Home Office,Central,VIP
+CUST-10487,Karen Thomas,Home Office,West,Regular
+CUST-10488,John Gonzalez,Home Office,East,Churn-Cohort
+CUST-10489,David Garcia,Consumer,Central,Churn-Cohort
+CUST-10490,William Martin,Corporate,East,Regular
+CUST-10491,Thomas Smith,Consumer,South,Occasional
+CUST-10492,David Lopez,Consumer,East,Regular
+CUST-10493,Barbara Gonzalez,Consumer,South,Regular
+CUST-10494,Charles Brown,Corporate,South,Regular
+CUST-10495,Nancy Moore,Consumer,West,Regular
+CUST-10496,William Taylor,Corporate,East,Regular
+CUST-10497,Mary Davis,Home Office,Central,VIP
+CUST-10498,Richard Thomas,Corporate,West,Churn-Cohort
+CUST-10499,John Lopez,Home Office,Central,Churn-Cohort
+CUST-10500,Susan Martinez,Consumer,Central,Occasional
+CUST-10501,Mary Rodriguez,Corporate,East,Regular
+CUST-10502,Karen Rodriguez,Consumer,West,Regular
+CUST-10503,Richard Gonzalez,Home Office,West,Churn-Cohort
+CUST-10504,Robert Gonzalez,Home Office,West,Occasional
+CUST-10505,Jessica Davis,Home Office,West,Regular
+CUST-10506,Jessica Martinez,Home Office,Central,Churn-Cohort
+CUST-10507,Thomas Moore,Consumer,West,Churn-Cohort
+CUST-10508,Michael Jackson,Home Office,West,Churn-Cohort
+CUST-10509,Michael Martinez,Home Office,West,Occasional
+CUST-10510,Jessica Jones,Home Office,West,Occasional
+CUST-10511,Richard Williams,Home Office,East,Regular
+CUST-10512,Jennifer Hernandez,Consumer,East,Churn-Cohort
+CUST-10513,Richard Wilson,Corporate,Central,Churn-Cohort
+CUST-10514,Thomas Rodriguez,Consumer,West,VIP
+CUST-10515,Patricia Jones,Consumer,East,VIP
+CUST-10516,Nancy Martin,Corporate,West,Regular
+CUST-10517,Nancy Davis,Consumer,East,Churn-Cohort
+CUST-10518,Susan Williams,Home Office,South,Churn-Cohort
+CUST-10519,Michael Taylor,Home Office,South,Regular
+CUST-10520,Susan Garcia,Corporate,South,Regular
+CUST-10521,Sarah Jones,Consumer,West,Regular
+CUST-10522,Elizabeth Johnson,Corporate,East,Churn-Cohort
+CUST-10523,David Wilson,Consumer,West,Churn-Cohort
+CUST-10524,William Williams,Consumer,South,Churn-Cohort
+CUST-10525,Nancy Thomas,Home Office,Central,Regular
+CUST-10526,Thomas Davis,Corporate,South,Regular
+CUST-10527,Mary Martin,Home Office,South,Regular
+CUST-10528,Richard Gonzalez,Home Office,East,VIP
+CUST-10529,Charles Brown,Corporate,South,Churn-Cohort
+CUST-10530,Mary Davis,Home Office,South,Churn-Cohort
+CUST-10531,Mary Moore,Corporate,East,Churn-Cohort
+CUST-10532,William Martinez,Corporate,South,Churn-Cohort
+CUST-10533,Barbara Martinez,Corporate,West,Regular
+CUST-10534,Jessica Martinez,Home Office,East,Occasional
+CUST-10535,Charles Jones,Corporate,South,Churn-Cohort
+CUST-10536,Robert Taylor,Consumer,West,Churn-Cohort
+CUST-10537,Christopher Moore,Consumer,South,Regular
+CUST-10538,Jessica Hernandez,Corporate,East,Regular
+CUST-10539,Jennifer Anderson,Home Office,West,Regular
+CUST-10540,Thomas Williams,Corporate,Central,Churn-Cohort
+CUST-10541,Jennifer Brown,Consumer,East,Occasional
+CUST-10542,Thomas Lopez,Consumer,South,Regular
+CUST-10543,Charles Martin,Consumer,South,Occasional
+CUST-10544,Karen Gonzalez,Consumer,West,Occasional
+CUST-10545,Richard Jackson,Home Office,West,Regular
+CUST-10546,Jennifer Jones,Consumer,East,Regular
+CUST-10547,Jessica Martinez,Corporate,South,Occasional
+CUST-10548,Barbara Garcia,Consumer,West,Regular
+CUST-10549,William Smith,Home Office,Central,Occasional
+CUST-10550,John Anderson,Corporate,South,Regular
+CUST-10551,Karen Smith,Home Office,South,Churn-Cohort
+CUST-10552,Elizabeth Miller,Home Office,South,Regular
+CUST-10553,Thomas Wilson,Corporate,East,Regular
+CUST-10554,Nancy Martin,Consumer,West,Churn-Cohort
+CUST-10555,Karen Rodriguez,Home Office,West,Regular
+CUST-10556,Mary Garcia,Consumer,East,Regular
+CUST-10557,Susan Johnson,Consumer,East,VIP
+CUST-10558,Christopher Martin,Corporate,Central,Occasional
+CUST-10559,Robert Johnson,Consumer,South,Occasional
+CUST-10560,Jennifer Garcia,Home Office,Central,Occasional
+CUST-10561,Nancy Martin,Home Office,West,Regular
+CUST-10562,Thomas Jackson,Corporate,East,Regular
+CUST-10563,Robert Martinez,Corporate,Central,VIP
+CUST-10564,Joseph Williams,Corporate,East,Regular
+CUST-10565,Barbara Thomas,Consumer,East,Regular
+CUST-10566,David Hernandez,Home Office,South,Regular
+CUST-10567,Charles Miller,Home Office,West,Regular
+CUST-10568,Nancy Johnson,Consumer,East,Churn-Cohort
+CUST-10569,Sarah Martin,Home Office,Central,Regular
+CUST-10570,Jessica Martin,Corporate,Central,Regular
+CUST-10571,Charles Jackson,Home Office,Central,Occasional
+CUST-10572,Michael Martin,Home Office,South,Regular
+CUST-10573,Charles Thomas,Corporate,West,Occasional
+CUST-10574,Nancy Davis,Home Office,Central,Churn-Cohort
+CUST-10575,William Smith,Consumer,East,Churn-Cohort
+CUST-10576,Thomas Brown,Home Office,West,Regular
+CUST-10577,Nancy Wilson,Corporate,East,Churn-Cohort
+CUST-10578,Richard Lopez,Home Office,West,Regular
+CUST-10579,John Miller,Home Office,Central,Regular
+CUST-10580,David Williams,Corporate,Central,Regular
+CUST-10581,Charles Moore,Corporate,East,Churn-Cohort
+CUST-10582,Patricia Hernandez,Corporate,South,Regular
+CUST-10583,Christopher Martin,Consumer,West,Regular
+CUST-10584,William Hernandez,Corporate,South,Occasional
+CUST-10585,Sarah Johnson,Home Office,West,Regular
+CUST-10586,Sarah Jones,Home Office,South,VIP
+CUST-10587,Karen Hernandez,Corporate,South,Regular
+CUST-10588,Mary Taylor,Corporate,Central,Regular
+CUST-10589,Karen Moore,Consumer,West,Regular
+CUST-10590,Christopher Hernandez,Corporate,East,Regular
+CUST-10591,Michael Rodriguez,Consumer,Central,Occasional
+CUST-10592,Joseph Moore,Consumer,South,Regular
+CUST-10593,Jennifer Martin,Consumer,Central,Regular
+CUST-10594,Richard Johnson,Corporate,South,Churn-Cohort
+CUST-10595,Robert Thomas,Consumer,Central,Regular
+CUST-10596,Thomas Martinez,Consumer,Central,Occasional
+CUST-10597,Jennifer Brown,Corporate,East,Regular
+CUST-10598,William Williams,Corporate,East,Regular
+CUST-10599,Sarah Taylor,Consumer,West,VIP
+CUST-10600,Richard Thomas,Home Office,Central,Regular
+CUST-10601,Richard Jones,Consumer,West,Regular
+CUST-10602,William Johnson,Corporate,South,Regular
+CUST-10603,Charles Brown,Consumer,Central,VIP
+CUST-10604,Mary Martin,Consumer,Central,Regular
+CUST-10605,Thomas Johnson,Consumer,Central,Regular
+CUST-10606,John Jackson,Corporate,West,Regular
+CUST-10607,Richard Miller,Consumer,Central,Regular
+CUST-10608,David Moore,Corporate,South,Regular
+CUST-10609,Patricia Rodriguez,Consumer,West,Occasional
+CUST-10610,David Brown,Consumer,East,VIP
+CUST-10611,William Moore,Corporate,Central,Occasional
+CUST-10612,David Jones,Home Office,Central,Occasional
+CUST-10613,Christopher Davis,Consumer,East,VIP
+CUST-10614,Barbara Martin,Corporate,South,Churn-Cohort
+CUST-10615,Mary Jones,Consumer,South,Churn-Cohort
+CUST-10616,Mary Brown,Corporate,East,VIP
+CUST-10617,Robert Wilson,Corporate,West,Regular
+CUST-10618,Nancy Jackson,Home Office,South,Churn-Cohort
+CUST-10619,Nancy Lopez,Corporate,Central,Occasional
+CUST-10620,William Moore,Consumer,South,Regular
+CUST-10621,Christopher Jones,Consumer,South,Regular
+CUST-10622,Patricia Anderson,Corporate,South,Regular
+CUST-10623,Sarah Davis,Consumer,West,Regular
+CUST-10624,Nancy Rodriguez,Corporate,South,Occasional
+CUST-10625,Jennifer Hernandez,Corporate,South,Regular
+CUST-10626,Sarah Smith,Consumer,South,Regular
+CUST-10627,Patricia Lopez,Corporate,South,Occasional
+CUST-10628,Jennifer Martinez,Corporate,West,VIP
+CUST-10629,Charles Brown,Corporate,East,Regular
+CUST-10630,Richard Moore,Home Office,East,Occasional
+CUST-10631,Barbara Moore,Corporate,South,Churn-Cohort
+CUST-10632,Christopher Wilson,Consumer,West,Regular
+CUST-10633,Karen Garcia,Corporate,South,Regular
+CUST-10634,Robert Hernandez,Consumer,South,Regular
+CUST-10635,Jessica Jackson,Corporate,West,Regular
+CUST-10636,Jennifer Williams,Home Office,South,Regular
+CUST-10637,Patricia Jackson,Home Office,South,Regular
+CUST-10638,Richard Moore,Consumer,South,Regular
+CUST-10639,Jennifer Martinez,Corporate,East,Regular
+CUST-10640,Nancy Brown,Home Office,South,VIP
+CUST-10641,Richard Thomas,Home Office,East,Regular
+CUST-10642,Robert Miller,Consumer,East,Regular
+CUST-10643,Michael Jones,Corporate,Central,Regular
+CUST-10644,Joseph Martin,Home Office,South,Regular
+CUST-10645,William Miller,Home Office,Central,Churn-Cohort
+CUST-10646,Barbara Jackson,Home Office,Central,Regular
+CUST-10647,Jessica Lopez,Consumer,East,Occasional
+CUST-10648,Nancy Taylor,Corporate,West,Occasional
+CUST-10649,Barbara Johnson,Corporate,East,Regular
+CUST-10650,John Moore,Corporate,East,VIP
+CUST-10651,Barbara Smith,Consumer,South,Regular
+CUST-10652,Christopher Gonzalez,Home Office,Central,Regular
+CUST-10653,Joseph Gonzalez,Corporate,South,Occasional
+CUST-10654,Karen Miller,Home Office,West,Regular
+CUST-10655,Sarah Jones,Consumer,South,Regular
+CUST-10656,Susan Wilson,Consumer,Central,Regular
+CUST-10657,Michael Jones,Consumer,East,Regular
+CUST-10658,John Jones,Home Office,South,Occasional
+CUST-10659,Jessica Jones,Consumer,West,Regular
+CUST-10660,Jessica Anderson,Home Office,South,Regular
+CUST-10661,Nancy Garcia,Corporate,South,Churn-Cohort
+CUST-10662,Karen Anderson,Corporate,Central,Occasional
+CUST-10663,Elizabeth Garcia,Corporate,East,Regular
+CUST-10664,Christopher Thomas,Home Office,West,Regular
+CUST-10665,Charles Rodriguez,Corporate,Central,Regular
+CUST-10666,Mary Johnson,Home Office,South,Regular
+CUST-10667,Susan Brown,Home Office,South,Regular
+CUST-10668,Robert Jones,Home Office,Central,Regular
+CUST-10669,Thomas Taylor,Consumer,East,Regular
+CUST-10670,Elizabeth Thomas,Home Office,East,Regular
+CUST-10671,Karen Jackson,Corporate,East,Churn-Cohort
+CUST-10672,Richard Moore,Consumer,South,VIP
+CUST-10673,Thomas Taylor,Corporate,Central,Regular
+CUST-10674,Jessica Lopez,Corporate,Central,Regular
+CUST-10675,Jennifer Johnson,Home Office,Central,Churn-Cohort
+CUST-10676,Christopher Rodriguez,Consumer,South,Regular
+CUST-10677,Christopher Garcia,Home Office,East,Regular
+CUST-10678,Barbara Martin,Consumer,Central,Churn-Cohort
+CUST-10679,Sarah Williams,Consumer,East,Churn-Cohort
+CUST-10680,David Rodriguez,Consumer,Central,Churn-Cohort
+CUST-10681,David Rodriguez,Consumer,East,Regular
+CUST-10682,Nancy Garcia,Home Office,West,Regular
+CUST-10683,Thomas Lopez,Consumer,Central,Occasional
+CUST-10684,Elizabeth Thomas,Consumer,East,Churn-Cohort
+CUST-10685,Richard Williams,Consumer,West,Regular
+CUST-10686,Sarah Wilson,Corporate,West,Regular
+CUST-10687,Thomas Garcia,Consumer,Central,Regular
+CUST-10688,Mary Rodriguez,Consumer,East,Occasional
+CUST-10689,Jennifer Anderson,Corporate,South,Regular
+CUST-10690,Barbara Thomas,Home Office,West,Regular
+CUST-10691,Joseph Gonzalez,Corporate,Central,Regular
+CUST-10692,Michael Taylor,Corporate,East,Regular
+CUST-10693,Barbara Anderson,Corporate,Central,Regular
+CUST-10694,Charles Johnson,Consumer,Central,Regular
+CUST-10695,Jessica Martin,Home Office,Central,Occasional
+CUST-10696,Richard Rodriguez,Corporate,East,Regular
+CUST-10697,David Jackson,Corporate,South,Regular
+CUST-10698,Elizabeth Jackson,Consumer,Central,Regular
+CUST-10699,Jennifer Hernandez,Home Office,East,Regular
+CUST-10700,John Williams,Consumer,South,Regular
+CUST-10701,Patricia Taylor,Consumer,South,VIP
+CUST-10702,Susan Davis,Home Office,Central,Regular
+CUST-10703,David Miller,Consumer,East,Regular
+CUST-10704,Nancy Williams,Consumer,West,VIP
+CUST-10705,Nancy Brown,Home Office,East,Churn-Cohort
+CUST-10706,Robert Martin,Consumer,South,Regular
+CUST-10707,Christopher Garcia,Consumer,West,Churn-Cohort
+CUST-10708,David Martinez,Corporate,East,Regular
+CUST-10709,Thomas Rodriguez,Corporate,Central,Occasional
+CUST-10710,David Garcia,Consumer,Central,Occasional
+CUST-10711,Mary Gonzalez,Corporate,Central,Regular
+CUST-10712,Mary Rodriguez,Corporate,West,Regular
+CUST-10713,Thomas Williams,Corporate,West,Regular
+CUST-10714,Nancy Gonzalez,Consumer,South,Regular
+CUST-10715,Patricia Jones,Home Office,South,Churn-Cohort
+CUST-10716,William Martin,Home Office,East,Churn-Cohort
+CUST-10717,Thomas Rodriguez,Consumer,East,Churn-Cohort
+CUST-10718,Robert Williams,Home Office,Central,Regular
+CUST-10719,Thomas Smith,Corporate,West,Occasional
+CUST-10720,John Johnson,Home Office,South,Churn-Cohort
+CUST-10721,David Jones,Home Office,Central,Regular
+CUST-10722,Joseph Jackson,Consumer,South,VIP
+CUST-10723,Sarah Wilson,Corporate,East,Occasional
+CUST-10724,Karen Davis,Consumer,South,Regular
+CUST-10725,Sarah Brown,Home Office,Central,Churn-Cohort
+CUST-10726,Richard Martinez,Corporate,East,Regular
+CUST-10727,Robert Lopez,Home Office,Central,Occasional
+CUST-10728,Robert Anderson,Corporate,West,Regular
+CUST-10729,Jennifer Moore,Consumer,South,Regular
+CUST-10730,William Martinez,Home Office,South,Regular
+CUST-10731,Patricia Lopez,Corporate,East,Churn-Cohort
+CUST-10732,Thomas Miller,Consumer,East,Occasional
+CUST-10733,William Smith,Home Office,West,Regular
+CUST-10734,Sarah Gonzalez,Consumer,Central,Regular
+CUST-10735,Sarah Moore,Corporate,East,Churn-Cohort
+CUST-10736,Mary Hernandez,Consumer,Central,Regular
+CUST-10737,Mary Gonzalez,Consumer,West,Churn-Cohort
+CUST-10738,Charles Anderson,Home Office,West,Regular
+CUST-10739,Christopher Davis,Consumer,East,Regular
+CUST-10740,Michael Thomas,Home Office,East,Regular
+CUST-10741,Sarah Martin,Consumer,West,Regular
+CUST-10742,Michael Smith,Consumer,East,Occasional
+CUST-10743,Barbara Brown,Corporate,West,Regular
+CUST-10744,Christopher Williams,Consumer,East,Regular
+CUST-10745,Sarah Martin,Home Office,West,Churn-Cohort
+CUST-10746,Robert Miller,Corporate,Central,Regular
+CUST-10747,Joseph Hernandez,Consumer,West,Regular
+CUST-10748,Richard Miller,Consumer,West,Churn-Cohort
+CUST-10749,Richard Williams,Consumer,Central,Occasional
+CUST-10750,Michael Wilson,Consumer,Central,Regular
+CUST-10751,Karen Garcia,Corporate,West,Churn-Cohort
+CUST-10752,Christopher Johnson,Consumer,East,Occasional
+CUST-10753,Nancy Gonzalez,Consumer,East,Regular
+CUST-10754,Sarah Williams,Consumer,East,Regular
+CUST-10755,Jennifer Williams,Home Office,Central,Occasional
+CUST-10756,Jessica Thomas,Home Office,West,Occasional
+CUST-10757,William Jones,Home Office,Central,Regular
+CUST-10758,Charles Anderson,Corporate,West,Churn-Cohort
+CUST-10759,Jennifer Martin,Home Office,East,Occasional
+CUST-10760,Nancy Garcia,Home Office,South,Regular
+CUST-10761,Nancy Williams,Home Office,Central,Regular
+CUST-10762,Susan Wilson,Consumer,West,Regular
+CUST-10763,William Brown,Home Office,East,Occasional
+CUST-10764,Nancy Lopez,Home Office,West,VIP
+CUST-10765,Thomas Miller,Corporate,East,Regular
+CUST-10766,William Brown,Consumer,South,Occasional
+CUST-10767,Sarah Garcia,Consumer,East,Churn-Cohort
+CUST-10768,Mary Lopez,Corporate,West,Regular
+CUST-10769,Jessica Rodriguez,Corporate,South,Churn-Cohort
+CUST-10770,Mary Brown,Home Office,East,Regular
+CUST-10771,Karen Garcia,Consumer,East,Churn-Cohort
+CUST-10772,Sarah Taylor,Consumer,East,Regular
+CUST-10773,Elizabeth Anderson,Home Office,Central,Regular
+CUST-10774,Jessica Miller,Home Office,Central,Occasional
+CUST-10775,Elizabeth Brown,Corporate,West,Regular
+CUST-10776,Patricia Davis,Home Office,South,Regular
+CUST-10777,William Gonzalez,Consumer,East,Occasional
+CUST-10778,Sarah Jackson,Corporate,East,Occasional
+CUST-10779,Jessica Jones,Consumer,South,Occasional
+CUST-10780,Jennifer Gonzalez,Corporate,West,Occasional
+CUST-10781,Thomas Miller,Home Office,Central,Regular
+CUST-10782,David Miller,Corporate,West,Regular
+CUST-10783,Mary Jackson,Consumer,Central,Regular
+CUST-10784,Michael Brown,Corporate,South,Regular
+CUST-10785,Jessica Garcia,Corporate,West,Churn-Cohort
+CUST-10786,Barbara Martin,Consumer,West,Regular
+CUST-10787,Christopher Moore,Consumer,East,Regular
+CUST-10788,Jessica Taylor,Corporate,West,Regular
+CUST-10789,Christopher Thomas,Corporate,Central,Churn-Cohort
+CUST-10790,John Wilson,Home Office,West,Regular
+CUST-10791,Elizabeth Hernandez,Corporate,West,Regular
+CUST-10792,Christopher Jones,Home Office,East,Regular
+CUST-10793,Jessica Johnson,Consumer,South,Occasional
+CUST-10794,Charles Johnson,Corporate,South,VIP
+CUST-10795,Sarah Brown,Corporate,South,Churn-Cohort
+CUST-10796,Elizabeth Williams,Home Office,East,Churn-Cohort
+CUST-10797,Jessica Miller,Consumer,Central,Regular
+CUST-10798,Barbara Davis,Home Office,East,Occasional
+CUST-10799,John Thomas,Home Office,Central,Churn-Cohort
+CUST-10800,Jennifer Anderson,Home Office,East,Occasional
+CUST-10801,Thomas Anderson,Consumer,South,Regular
+CUST-10802,Jennifer Lopez,Home Office,South,Regular
+CUST-10803,John Williams,Corporate,Central,Occasional
+CUST-10804,Charles Johnson,Corporate,South,Regular
+CUST-10805,David Martin,Home Office,West,Occasional
+CUST-10806,Robert Martin,Corporate,East,Churn-Cohort
+CUST-10807,Charles Lopez,Consumer,East,Churn-Cohort
+CUST-10808,Joseph Lopez,Corporate,East,Regular
+CUST-10809,Susan Lopez,Consumer,East,Regular
+CUST-10810,Karen Miller,Consumer,Central,Churn-Cohort
+CUST-10811,Elizabeth Moore,Consumer,South,Churn-Cohort
+CUST-10812,Christopher Miller,Home Office,West,Regular
+CUST-10813,Richard Lopez,Corporate,South,Churn-Cohort
+CUST-10814,David Johnson,Consumer,Central,Churn-Cohort
+CUST-10815,Susan Anderson,Corporate,East,Regular
+CUST-10816,Sarah Moore,Home Office,Central,Regular
+CUST-10817,Thomas Martin,Corporate,East,Regular
+CUST-10818,William Anderson,Consumer,East,VIP
+CUST-10819,Joseph Garcia,Corporate,East,Regular
+CUST-10820,Patricia Garcia,Corporate,East,Churn-Cohort
+CUST-10821,Michael Thomas,Consumer,West,VIP
+CUST-10822,Charles Smith,Corporate,South,Regular
+CUST-10823,Karen Jones,Corporate,Central,Regular
+CUST-10824,Jessica Anderson,Home Office,East,Regular
+CUST-10825,Barbara Miller,Consumer,East,Churn-Cohort
+CUST-10826,Elizabeth Taylor,Home Office,Central,Regular
+CUST-10827,Jessica Jackson,Corporate,Central,Regular
+CUST-10828,Sarah Jackson,Home Office,South,Occasional
+CUST-10829,Thomas Martinez,Home Office,West,Regular
+CUST-10830,Barbara Garcia,Corporate,West,Regular
+CUST-10831,Sarah Lopez,Corporate,East,Regular
+CUST-10832,Michael Lopez,Corporate,South,Regular
+CUST-10833,Jennifer Martin,Consumer,Central,Regular
+CUST-10834,Jennifer Garcia,Home Office,West,Regular
+CUST-10835,Jennifer Davis,Consumer,East,Regular
+CUST-10836,Richard Jackson,Consumer,South,Churn-Cohort
+CUST-10837,David Lopez,Consumer,West,Regular
+CUST-10838,Karen Johnson,Home Office,Central,Regular
+CUST-10839,Susan Jones,Corporate,South,Occasional
+CUST-10840,Karen Garcia,Home Office,Central,VIP
+CUST-10841,Patricia Smith,Corporate,South,Occasional
+CUST-10842,Michael Anderson,Corporate,West,Regular
+CUST-10843,John Moore,Home Office,Central,Churn-Cohort
+CUST-10844,Barbara Thomas,Corporate,West,Regular
+CUST-10845,Christopher Anderson,Corporate,East,Regular
+CUST-10846,Sarah Johnson,Consumer,East,VIP
+CUST-10847,Barbara Smith,Corporate,West,Churn-Cohort
+CUST-10848,Thomas Lopez,Consumer,Central,Regular
+CUST-10849,Mary Martin,Home Office,West,Regular
+CUST-10850,Christopher Taylor,Consumer,Central,VIP
+CUST-10851,William Smith,Consumer,South,Occasional
+CUST-10852,Robert Taylor,Corporate,West,Regular
+CUST-10853,Sarah Hernandez,Home Office,East,Churn-Cohort
+CUST-10854,Susan Gonzalez,Consumer,South,Regular
+CUST-10855,Susan Gonzalez,Corporate,East,Regular
+CUST-10856,Barbara Lopez,Corporate,Central,VIP
+CUST-10857,Thomas Moore,Consumer,West,Regular
+CUST-10858,Thomas Wilson,Corporate,Central,Regular
+CUST-10859,Jennifer Wilson,Home Office,South,VIP
+CUST-10860,Michael Jackson,Home Office,East,Occasional
+CUST-10861,Michael Miller,Corporate,South,Regular
+CUST-10862,Charles Hernandez,Consumer,South,Regular
+CUST-10863,Robert Smith,Corporate,Central,Regular
+CUST-10864,Jessica Garcia,Home Office,South,Regular
+CUST-10865,Christopher Jones,Consumer,West,Regular
+CUST-10866,Joseph Martinez,Home Office,South,Regular
+CUST-10867,Mary Martinez,Home Office,Central,Regular
+CUST-10868,Sarah Moore,Home Office,South,Churn-Cohort
+CUST-10869,Elizabeth Smith,Consumer,West,Churn-Cohort
+CUST-10870,David Martinez,Home Office,South,Regular
+CUST-10871,Patricia Martinez,Corporate,West,Regular
+CUST-10872,Sarah Davis,Consumer,East,Occasional
+CUST-10873,David Thomas,Consumer,Central,Regular
+CUST-10874,Christopher Thomas,Home Office,South,VIP
+CUST-10875,David Thomas,Home Office,East,Regular
+CUST-10876,Susan Taylor,Home Office,East,Occasional
+CUST-10877,David Garcia,Home Office,East,Occasional
+CUST-10878,Michael Hernandez,Corporate,West,VIP
+CUST-10879,Susan Garcia,Consumer,Central,Regular
+CUST-10880,Susan Wilson,Home Office,Central,Regular
+CUST-10881,Mary Martinez,Corporate,East,Occasional
+CUST-10882,Charles Miller,Home Office,West,VIP
+CUST-10883,Patricia Martin,Consumer,Central,Regular
+CUST-10884,Richard Martinez,Corporate,Central,Occasional
+CUST-10885,Patricia Moore,Home Office,Central,Regular
+CUST-10886,Michael Smith,Consumer,Central,Occasional
+CUST-10887,Susan Thomas,Corporate,Central,Regular
+CUST-10888,Jennifer Brown,Consumer,West,VIP
+CUST-10889,Charles Davis,Consumer,East,Regular
+CUST-10890,Jessica Anderson,Consumer,East,Occasional
+CUST-10891,Michael Smith,Corporate,Central,Churn-Cohort
+CUST-10892,Barbara Lopez,Consumer,South,Churn-Cohort
+CUST-10893,Nancy Taylor,Corporate,West,Regular
+CUST-10894,Barbara Smith,Home Office,East,Occasional
+CUST-10895,Elizabeth Jones,Home Office,West,Regular
+CUST-10896,Elizabeth Martinez,Consumer,West,Regular
+CUST-10897,Michael Williams,Corporate,East,Churn-Cohort
+CUST-10898,Robert Smith,Corporate,South,VIP
+CUST-10899,Mary Miller,Consumer,East,VIP
+CUST-10900,Charles Jackson,Consumer,South,Regular
+CUST-10901,Patricia Rodriguez,Consumer,East,VIP
+CUST-10902,Barbara Smith,Consumer,East,Regular
+CUST-10903,Nancy Miller,Home Office,West,Regular
+CUST-10904,Jennifer Lopez,Consumer,East,Regular
+CUST-10905,Michael Rodriguez,Home Office,Central,Churn-Cohort
+CUST-10906,Susan Garcia,Home Office,West,Churn-Cohort
+CUST-10907,Charles Jackson,Consumer,East,Regular
+CUST-10908,Christopher Smith,Home Office,West,Regular
+CUST-10909,William Martinez,Consumer,East,Regular
+CUST-10910,Patricia Miller,Home Office,South,Regular
+CUST-10911,Susan Jackson,Consumer,South,Regular
+CUST-10912,Patricia Garcia,Corporate,South,Occasional
+CUST-10913,Jessica Miller,Home Office,West,Regular
+CUST-10914,Jessica Brown,Corporate,East,Regular
+CUST-10915,Thomas Brown,Home Office,West,Regular
+CUST-10916,Sarah Lopez,Home Office,Central,Regular
+CUST-10917,Karen Johnson,Consumer,Central,Churn-Cohort
+CUST-10918,Sarah Brown,Corporate,Central,Occasional
+CUST-10919,Thomas Martin,Home Office,Central,Regular
+CUST-10920,Thomas Davis,Home Office,South,Churn-Cohort
+CUST-10921,Barbara Wilson,Consumer,East,Regular
+CUST-10922,Sarah Lopez,Consumer,East,Churn-Cohort
+CUST-10923,Sarah Brown,Corporate,South,Occasional
+CUST-10924,Charles Williams,Consumer,West,Regular
+CUST-10925,Joseph Gonzalez,Home Office,East,VIP
+CUST-10926,Jennifer Williams,Corporate,West,Regular
+CUST-10927,Richard Miller,Home Office,South,Regular
+CUST-10928,Patricia Davis,Corporate,South,Occasional
+CUST-10929,David Jackson,Home Office,Central,Regular
+CUST-10930,Joseph Lopez,Corporate,South,Regular
+CUST-10931,Sarah Taylor,Corporate,West,Churn-Cohort
+CUST-10932,Thomas Brown,Consumer,Central,Churn-Cohort
+CUST-10933,Sarah Thomas,Consumer,West,Regular
+CUST-10934,John Brown,Home Office,East,Regular
+CUST-10935,Robert Thomas,Home Office,East,Regular
+CUST-10936,Jennifer Gonzalez,Home Office,Central,VIP
+CUST-10937,Michael Martinez,Home Office,East,Churn-Cohort
+CUST-10938,Robert Taylor,Corporate,South,Regular
+CUST-10939,William Martinez,Home Office,South,Regular
+CUST-10940,Sarah Taylor,Corporate,Central,Regular
+CUST-10941,Karen Moore,Consumer,East,Regular
+CUST-10942,Jessica Brown,Corporate,South,Occasional
+CUST-10943,Richard Gonzalez,Corporate,South,Churn-Cohort
+CUST-10944,Mary Johnson,Consumer,Central,Regular
+CUST-10945,Jennifer Thomas,Corporate,West,VIP
+CUST-10946,Barbara Gonzalez,Corporate,East,Regular
+CUST-10947,Christopher Thomas,Home Office,South,Churn-Cohort
+CUST-10948,Sarah Moore,Consumer,East,Churn-Cohort
+CUST-10949,Joseph Rodriguez,Corporate,South,Regular
+CUST-10950,Nancy Lopez,Corporate,Central,Occasional
+CUST-10951,Mary Smith,Home Office,East,Occasional
+CUST-10952,Michael Lopez,Corporate,East,Regular
+CUST-10953,Richard Gonzalez,Consumer,South,Churn-Cohort
+CUST-10954,Susan Lopez,Corporate,Central,Regular
+CUST-10955,Mary Davis,Consumer,West,Regular
+CUST-10956,Barbara Jackson,Consumer,East,Regular
+CUST-10957,Barbara Brown,Corporate,West,VIP
+CUST-10958,John Moore,Corporate,East,Regular
+CUST-10959,Thomas Wilson,Home Office,South,Occasional
+CUST-10960,David Smith,Home Office,South,VIP
+CUST-10961,Christopher Smith,Corporate,South,Occasional
+CUST-10962,Christopher Gonzalez,Corporate,East,Regular
+CUST-10963,Sarah Brown,Home Office,West,Regular
+CUST-10964,Richard Thomas,Home Office,Central,Regular
+CUST-10965,Jennifer Martin,Corporate,Central,Regular
+CUST-10966,Jessica Miller,Corporate,East,Occasional
+CUST-10967,Karen Miller,Corporate,Central,Regular
+CUST-10968,Mary Martinez,Home Office,South,Regular
+CUST-10969,Elizabeth Martin,Home Office,East,Regular
+CUST-10970,Christopher Brown,Home Office,Central,Occasional
+CUST-10971,David Williams,Home Office,South,Churn-Cohort
+CUST-10972,Jessica Miller,Corporate,East,Occasional
+CUST-10973,Barbara Taylor,Corporate,South,Regular
+CUST-10974,Karen Hernandez,Consumer,South,VIP
+CUST-10975,Joseph Rodriguez,Home Office,South,Regular
+CUST-10976,Karen Garcia,Consumer,West,Regular
+CUST-10977,Christopher Thomas,Consumer,South,VIP
+CUST-10978,David Moore,Home Office,South,Regular
+CUST-10979,Christopher Johnson,Home Office,West,Regular
+CUST-10980,Susan Anderson,Consumer,West,Regular
+CUST-10981,Michael Martinez,Corporate,South,Occasional
+CUST-10982,Richard Williams,Home Office,West,Regular
+CUST-10983,Jessica Rodriguez,Corporate,West,VIP
+CUST-10984,David Martin,Consumer,South,Occasional
+CUST-10985,Elizabeth Brown,Consumer,West,Regular
+CUST-10986,John Davis,Corporate,South,Occasional
+CUST-10987,Sarah Moore,Corporate,South,Regular
+CUST-10988,Mary Miller,Consumer,Central,Regular
+CUST-10989,Michael Smith,Corporate,Central,Churn-Cohort
+CUST-10990,Karen Garcia,Home Office,East,Occasional
+CUST-10991,Sarah Smith,Consumer,East,Occasional
+CUST-10992,Richard Martin,Corporate,East,Regular
+CUST-10993,Jessica Lopez,Home Office,East,Regular
+CUST-10994,Joseph Jones,Consumer,East,Regular
+CUST-10995,Christopher Taylor,Consumer,Central,VIP
+CUST-10996,Sarah Williams,Consumer,East,Churn-Cohort
+CUST-10997,Richard Hernandez,Home Office,South,Regular
+CUST-10998,Elizabeth Wilson,Consumer,West,Churn-Cohort
+CUST-10999,Patricia Garcia,Consumer,Central,Regular

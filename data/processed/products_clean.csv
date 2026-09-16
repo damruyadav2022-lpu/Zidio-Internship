@@ -1,0 +1,201 @@
+ProductID,ProductName,Category,SubCategory,UnitPrice,UnitCost
+TEC-PH-10000000,Premium Phone Model 000,Technology,Phones,296.77,186.96
+TEC-MA-10000001,Premium Machine Model 001,Technology,Machines,1301.74,808.05
+FUR-FU-10000002,Premium Furnishing Model 002,Furniture,Furnishings,59.68,32.62
+FUR-FU-10000003,Premium Furnishing Model 003,Furniture,Furnishings,43.32,30.23
+TEC-AC-10000004,Premium Accessorie Model 004,Technology,Accessories,57.48,39.25
+OFF-BI-10000005,Premium Binder Model 005,Office Supplies,Binders,45.1,28.21
+TEC-MA-10000006,Premium Machine Model 006,Technology,Machines,642.23,358.81
+FUR-FU-10000007,Premium Furnishing Model 007,Furniture,Furnishings,97.47,67.32
+TEC-PH-10000008,Premium Phone Model 008,Technology,Phones,170.88,103.65
+FUR-TA-10000009,Premium Table Model 009,Furniture,Tables,765.45,520.45
+OFF-PA-10000010,Premium Paper Model 010,Office Supplies,Paper,19.71,11.77
+TEC-AC-10000011,Premium Accessorie Model 011,Technology,Accessories,131.62,82.82
+FUR-FU-10000012,Premium Furnishing Model 012,Furniture,Furnishings,27.24,17.17
+TEC-PH-10000013,Premium Phone Model 013,Technology,Phones,986.78,576.87
+TEC-MA-10000014,Premium Machine Model 014,Technology,Machines,304.14,163.38
+TEC-PH-10000015,Premium Phone Model 015,Technology,Phones,570.5,312.49
+OFF-BI-10000016,Premium Binder Model 016,Office Supplies,Binders,24.0,16.22
+OFF-AR-10000017,Premium Art Model 017,Office Supplies,Art,3.29,1.72
+TEC-AC-10000018,Premium Accessorie Model 018,Technology,Accessories,72.18,47.22
+TEC-CO-10000019,Premium Copier Model 019,Technology,Copiers,1087.66,623.15
+FUR-BO-10000020,Premium Bookcase Model 020,Furniture,Bookcases,141.12,71.26
+TEC-CO-10000021,Premium Copier Model 021,Technology,Copiers,1869.52,1241.56
+FUR-TA-10000022,Premium Table Model 022,Furniture,Tables,275.53,147.61
+OFF-PA-10000023,Premium Paper Model 023,Office Supplies,Paper,20.16,12.98
+TEC-AC-10000024,Premium Accessorie Model 024,Technology,Accessories,69.32,40.49
+OFF-BI-10000025,Premium Binder Model 025,Office Supplies,Binders,22.63,14.92
+FUR-CH-10000026,Premium Chair Model 026,Furniture,Chairs,170.81,100.96
+TEC-AC-10000027,Premium Accessorie Model 027,Technology,Accessories,123.55,75.55
+FUR-FU-10000028,Premium Furnishing Model 028,Furniture,Furnishings,60.3,40.54
+OFF-AR-10000029,Premium Art Model 029,Office Supplies,Art,19.28,11.11
+FUR-TA-10000030,Premium Table Model 030,Furniture,Tables,414.94,236.66
+OFF-AP-10000031,Premium Appliance Model 031,Office Supplies,Appliances,147.21,102.48
+TEC-PH-10000032,Premium Phone Model 032,Technology,Phones,509.23,351.49
+OFF-AR-10000033,Premium Art Model 033,Office Supplies,Art,5.54,3.03
+OFF-PA-10000034,Premium Paper Model 034,Office Supplies,Paper,9.19,5.84
+OFF-AP-10000035,Premium Appliance Model 035,Office Supplies,Appliances,221.06,139.78
+FUR-BO-10000036,Premium Bookcase Model 036,Furniture,Bookcases,296.08,193.91
+OFF-AP-10000037,Premium Appliance Model 037,Office Supplies,Appliances,237.62,141.98
+OFF-AR-10000038,Premium Art Model 038,Office Supplies,Art,6.17,4.06
+FUR-BO-10000039,Premium Bookcase Model 039,Furniture,Bookcases,222.48,119.81
+FUR-TA-10000040,Premium Table Model 040,Furniture,Tables,630.09,320.78
+FUR-BO-10000041,Premium Bookcase Model 041,Furniture,Bookcases,447.38,259.55
+FUR-CH-10000042,Premium Chair Model 042,Furniture,Chairs,128.55,79.41
+OFF-AR-10000043,Premium Art Model 043,Office Supplies,Art,12.79,7.6
+FUR-TA-10000044,Premium Table Model 044,Furniture,Tables,333.77,184.62
+FUR-CH-10000045,Premium Chair Model 045,Furniture,Chairs,99.08,67.17
+TEC-CO-10000046,Premium Copier Model 046,Technology,Copiers,680.31,400.32
+OFF-BI-10000047,Premium Binder Model 047,Office Supplies,Binders,21.6,14.09
+FUR-FU-10000048,Premium Furnishing Model 048,Furniture,Furnishings,79.53,46.8
+FUR-TA-10000049,Premium Table Model 049,Furniture,Tables,235.16,157.15
+FUR-FU-10000050,Premium Furnishing Model 050,Furniture,Furnishings,93.94,60.99
+FUR-CH-10000051,Premium Chair Model 051,Furniture,Chairs,168.4,95.82
+TEC-MA-10000052,Premium Machine Model 052,Technology,Machines,1062.8,705.86
+FUR-FU-10000053,Premium Furnishing Model 053,Furniture,Furnishings,39.88,26.17
+OFF-AR-10000054,Premium Art Model 054,Office Supplies,Art,38.3,24.39
+OFF-BI-10000055,Premium Binder Model 055,Office Supplies,Binders,23.3,14.12
+TEC-AC-10000056,Premium Accessorie Model 056,Technology,Accessories,16.27,10.34
+FUR-CH-10000057,Premium Chair Model 057,Furniture,Chairs,221.35,154.62
+OFF-PA-10000058,Premium Paper Model 058,Office Supplies,Paper,22.14,12.63
+TEC-AC-10000059,Premium Accessorie Model 059,Technology,Accessories,93.24,52.12
+TEC-MA-10000060,Premium Machine Model 060,Technology,Machines,640.33,334.91
+FUR-TA-10000061,Premium Table Model 061,Furniture,Tables,296.65,163.88
+OFF-AR-10000062,Premium Art Model 062,Office Supplies,Art,11.19,7.71
+OFF-AP-10000063,Premium Appliance Model 063,Office Supplies,Appliances,185.05,115.31
+OFF-PA-10000064,Premium Paper Model 064,Office Supplies,Paper,14.07,9.35
+FUR-TA-10000065,Premium Table Model 065,Furniture,Tables,538.14,284.95
+TEC-PH-10000066,Premium Phone Model 066,Technology,Phones,809.59,425.32
+OFF-FA-10000067,Premium Fastener Model 067,Office Supplies,Fasteners,11.18,5.66
+OFF-AP-10000068,Premium Appliance Model 068,Office Supplies,Appliances,81.55,45.58
+TEC-MA-10000069,Premium Machine Model 069,Technology,Machines,323.61,189.43
+TEC-CO-10000070,Premium Copier Model 070,Technology,Copiers,1298.54,681.01
+OFF-AP-10000071,Premium Appliance Model 071,Office Supplies,Appliances,214.18,131.68
+OFF-FA-10000072,Premium Fastener Model 072,Office Supplies,Fasteners,3.53,2.38
+TEC-MA-10000073,Premium Machine Model 073,Technology,Machines,1348.34,716.13
+TEC-PH-10000074,Premium Phone Model 074,Technology,Phones,354.92,180.68
+OFF-FA-10000075,Premium Fastener Model 075,Office Supplies,Fasteners,7.03,4.45
+OFF-PA-10000076,Premium Paper Model 076,Office Supplies,Paper,6.95,4.79
+OFF-AR-10000077,Premium Art Model 077,Office Supplies,Art,14.48,9.86
+OFF-AR-10000078,Premium Art Model 078,Office Supplies,Art,25.29,16.49
+OFF-FA-10000079,Premium Fastener Model 079,Office Supplies,Fasteners,12.15,6.17
+OFF-AR-10000080,Premium Art Model 080,Office Supplies,Art,23.51,13.99
+FUR-CH-10000081,Premium Chair Model 081,Furniture,Chairs,224.17,129.45
+OFF-FA-10000082,Premium Fastener Model 082,Office Supplies,Fasteners,14.5,9.91
+OFF-AP-10000083,Premium Appliance Model 083,Office Supplies,Appliances,225.71,135.81
+FUR-BO-10000084,Premium Bookcase Model 084,Furniture,Bookcases,236.69,149.68
+TEC-AC-10000085,Premium Accessorie Model 085,Technology,Accessories,145.89,95.82
+FUR-TA-10000086,Premium Table Model 086,Furniture,Tables,675.61,446.07
+FUR-BO-10000087,Premium Bookcase Model 087,Furniture,Bookcases,248.48,169.49
+OFF-AR-10000088,Premium Art Model 088,Office Supplies,Art,11.31,7.73
+OFF-BI-10000089,Premium Binder Model 089,Office Supplies,Binders,12.35,6.76
+TEC-MA-10000090,Premium Machine Model 090,Technology,Machines,1068.68,646.23
+OFF-PA-10000091,Premium Paper Model 091,Office Supplies,Paper,5.51,3.48
+FUR-BO-10000092,Premium Bookcase Model 092,Furniture,Bookcases,235.42,127.2
+FUR-CH-10000093,Premium Chair Model 093,Furniture,Chairs,180.99,106.31
+OFF-AP-10000094,Premium Appliance Model 094,Office Supplies,Appliances,250.29,141.22
+FUR-BO-10000095,Premium Bookcase Model 095,Furniture,Bookcases,341.05,175.64
+TEC-MA-10000096,Premium Machine Model 096,Technology,Machines,937.42,582.15
+TEC-MA-10000097,Premium Machine Model 097,Technology,Machines,930.17,513.79
+OFF-AP-10000098,Premium Appliance Model 098,Office Supplies,Appliances,93.16,59.03
+TEC-PH-10000099,Premium Phone Model 099,Technology,Phones,986.62,564.52
+TEC-CO-10000100,Premium Copier Model 100,Technology,Copiers,600.52,309.17
+OFF-FA-10000101,Premium Fastener Model 101,Office Supplies,Fasteners,1.78,1.14
+OFF-FA-10000102,Premium Fastener Model 102,Office Supplies,Fasteners,8.04,5.18
+TEC-CO-10000103,Premium Copier Model 103,Technology,Copiers,1196.86,667.77
+OFF-AP-10000104,Premium Appliance Model 104,Office Supplies,Appliances,166.11,94.53
+OFF-BI-10000105,Premium Binder Model 105,Office Supplies,Binders,23.58,15.63
+TEC-CO-10000106,Premium Copier Model 106,Technology,Copiers,477.85,296.03
+TEC-MA-10000107,Premium Machine Model 107,Technology,Machines,702.25,414.38
+TEC-CO-10000108,Premium Copier Model 108,Technology,Copiers,1042.22,529.22
+TEC-CO-10000109,Premium Copier Model 109,Technology,Copiers,1211.7,724.56
+TEC-CO-10000110,Premium Copier Model 110,Technology,Copiers,1448.95,892.11
+FUR-CH-10000111,Premium Chair Model 111,Furniture,Chairs,266.73,170.2
+OFF-FA-10000112,Premium Fastener Model 112,Office Supplies,Fasteners,10.27,5.84
+OFF-AR-10000113,Premium Art Model 113,Office Supplies,Art,14.01,9.23
+OFF-AR-10000114,Premium Art Model 114,Office Supplies,Art,32.77,19.53
+FUR-BO-10000115,Premium Bookcase Model 115,Furniture,Bookcases,154.91,101.33
+FUR-TA-10000116,Premium Table Model 116,Furniture,Tables,757.77,520.84
+FUR-FU-10000117,Premium Furnishing Model 117,Furniture,Furnishings,99.75,69.48
+OFF-AP-10000118,Premium Appliance Model 118,Office Supplies,Appliances,78.16,51.44
+TEC-AC-10000119,Premium Accessorie Model 119,Technology,Accessories,48.49,31.55
+OFF-AR-10000120,Premium Art Model 120,Office Supplies,Art,20.22,12.69
+OFF-AR-10000121,Premium Art Model 121,Office Supplies,Art,18.39,11.97
+FUR-FU-10000122,Premium Furnishing Model 122,Furniture,Furnishings,20.1,12.01
+TEC-MA-10000123,Premium Machine Model 123,Technology,Machines,258.88,147.28
+FUR-CH-10000124,Premium Chair Model 124,Furniture,Chairs,379.07,258.28
+OFF-PA-10000125,Premium Paper Model 125,Office Supplies,Paper,13.69,8.69
+TEC-MA-10000126,Premium Machine Model 126,Technology,Machines,220.34,119.25
+FUR-CH-10000127,Premium Chair Model 127,Furniture,Chairs,222.86,137.11
+TEC-CO-10000128,Premium Copier Model 128,Technology,Copiers,1289.36,733.5
+TEC-MA-10000129,Premium Machine Model 129,Technology,Machines,931.1,645.77
+TEC-AC-10000130,Premium Accessorie Model 130,Technology,Accessories,96.67,63.89
+TEC-AC-10000131,Premium Accessorie Model 131,Technology,Accessories,47.75,32.61
+TEC-CO-10000132,Premium Copier Model 132,Technology,Copiers,1862.93,1085.69
+TEC-AC-10000133,Premium Accessorie Model 133,Technology,Accessories,89.34,58.31
+OFF-AP-10000134,Premium Appliance Model 134,Office Supplies,Appliances,297.58,151.68
+FUR-FU-10000135,Premium Furnishing Model 135,Furniture,Furnishings,23.59,13.74
+FUR-BO-10000136,Premium Bookcase Model 136,Furniture,Bookcases,300.89,198.28
+FUR-BO-10000137,Premium Bookcase Model 137,Furniture,Bookcases,197.28,123.77
+TEC-AC-10000138,Premium Accessorie Model 138,Technology,Accessories,108.46,74.28
+TEC-CO-10000139,Premium Copier Model 139,Technology,Copiers,659.92,440.12
+OFF-FA-10000140,Premium Fastener Model 140,Office Supplies,Fasteners,7.12,4.12
+OFF-PA-10000141,Premium Paper Model 141,Office Supplies,Paper,18.83,10.42
+OFF-BI-10000142,Premium Binder Model 142,Office Supplies,Binders,19.28,11.0
+FUR-BO-10000143,Premium Bookcase Model 143,Furniture,Bookcases,265.52,140.51
+FUR-FU-10000144,Premium Furnishing Model 144,Furniture,Furnishings,42.5,24.48
+OFF-AP-10000145,Premium Appliance Model 145,Office Supplies,Appliances,100.21,59.95
+TEC-AC-10000146,Premium Accessorie Model 146,Technology,Accessories,113.17,74.64
+TEC-PH-10000147,Premium Phone Model 147,Technology,Phones,166.57,100.16
+TEC-MA-10000148,Premium Machine Model 148,Technology,Machines,1478.69,939.7
+OFF-AR-10000149,Premium Art Model 149,Office Supplies,Art,24.48,13.93
+FUR-FU-10000150,Premium Furnishing Model 150,Furniture,Furnishings,20.45,11.53
+OFF-PA-10000151,Premium Paper Model 151,Office Supplies,Paper,21.93,12.74
+FUR-TA-10000152,Premium Table Model 152,Furniture,Tables,430.89,290.59
+FUR-BO-10000153,Premium Bookcase Model 153,Furniture,Bookcases,204.94,131.41
+OFF-FA-10000154,Premium Fastener Model 154,Office Supplies,Fasteners,9.35,6.39
+FUR-TA-10000155,Premium Table Model 155,Furniture,Tables,241.19,140.65
+OFF-AP-10000156,Premium Appliance Model 156,Office Supplies,Appliances,245.19,135.73
+TEC-CO-10000157,Premium Copier Model 157,Technology,Copiers,820.5,424.53
+FUR-TA-10000158,Premium Table Model 158,Furniture,Tables,629.45,335.92
+TEC-CO-10000159,Premium Copier Model 159,Technology,Copiers,603.02,331.62
+TEC-CO-10000160,Premium Copier Model 160,Technology,Copiers,1224.98,841.89
+OFF-AP-10000161,Premium Appliance Model 161,Office Supplies,Appliances,216.04,117.17
+OFF-AR-10000162,Premium Art Model 162,Office Supplies,Art,28.25,16.62
+FUR-FU-10000163,Premium Furnishing Model 163,Furniture,Furnishings,68.5,38.44
+TEC-AC-10000164,Premium Accessorie Model 164,Technology,Accessories,31.28,18.63
+FUR-FU-10000165,Premium Furnishing Model 165,Furniture,Furnishings,43.08,22.95
+OFF-BI-10000166,Premium Binder Model 166,Office Supplies,Binders,6.16,3.42
+FUR-TA-10000167,Premium Table Model 167,Furniture,Tables,540.01,366.98
+FUR-FU-10000168,Premium Furnishing Model 168,Furniture,Furnishings,16.39,9.74
+FUR-CH-10000169,Premium Chair Model 169,Furniture,Chairs,267.96,142.16
+FUR-BO-10000170,Premium Bookcase Model 170,Furniture,Bookcases,489.73,268.81
+OFF-PA-10000171,Premium Paper Model 171,Office Supplies,Paper,23.52,12.54
+FUR-BO-10000172,Premium Bookcase Model 172,Furniture,Bookcases,459.96,245.33
+FUR-BO-10000173,Premium Bookcase Model 173,Furniture,Bookcases,369.65,187.44
+TEC-MA-10000174,Premium Machine Model 174,Technology,Machines,721.2,487.1
+OFF-AR-10000175,Premium Art Model 175,Office Supplies,Art,26.04,16.98
+FUR-TA-10000176,Premium Table Model 176,Furniture,Tables,416.52,228.1
+OFF-PA-10000177,Premium Paper Model 177,Office Supplies,Paper,10.79,6.24
+TEC-PH-10000178,Premium Phone Model 178,Technology,Phones,344.76,212.7
+FUR-CH-10000179,Premium Chair Model 179,Furniture,Chairs,132.6,67.37
+OFF-BI-10000180,Premium Binder Model 180,Office Supplies,Binders,14.49,9.57
+FUR-CH-10000181,Premium Chair Model 181,Furniture,Chairs,83.83,57.04
+OFF-BI-10000182,Premium Binder Model 182,Office Supplies,Binders,4.43,3.02
+OFF-AR-10000183,Premium Art Model 183,Office Supplies,Art,35.66,19.61
+TEC-PH-10000184,Premium Phone Model 184,Technology,Phones,386.99,198.03
+OFF-FA-10000185,Premium Fastener Model 185,Office Supplies,Fasteners,11.32,6.54
+FUR-TA-10000186,Premium Table Model 186,Furniture,Tables,356.7,217.03
+FUR-FU-10000187,Premium Furnishing Model 187,Furniture,Furnishings,11.79,6.25
+TEC-AC-10000188,Premium Accessorie Model 188,Technology,Accessories,36.26,25.1
+TEC-CO-10000189,Premium Copier Model 189,Technology,Copiers,1566.13,1080.22
+OFF-FA-10000190,Premium Fastener Model 190,Office Supplies,Fasteners,11.43,5.92
+TEC-CO-10000191,Premium Copier Model 191,Technology,Copiers,1188.93,724.3
+FUR-FU-10000192,Premium Furnishing Model 192,Furniture,Furnishings,30.3,15.61
+FUR-BO-10000193,Premium Bookcase Model 193,Furniture,Bookcases,293.09,189.34
+OFF-AR-10000194,Premium Art Model 194,Office Supplies,Art,3.14,1.97
+FUR-FU-10000195,Premium Furnishing Model 195,Furniture,Furnishings,54.02,29.45
+OFF-FA-10000196,Premium Fastener Model 196,Office Supplies,Fasteners,8.75,5.89
+OFF-FA-10000197,Premium Fastener Model 197,Office Supplies,Fasteners,10.49,7.31
+FUR-TA-10000198,Premium Table Model 198,Furniture,Tables,425.19,240.33
+OFF-FA-10000199,Premium Fastener Model 199,Office Supplies,Fasteners,9.23,4.8

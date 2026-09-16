@@ -1,0 +1,32 @@
+name: 24/7 Always-Live Cloud Keep-Alive
+
+on:
+  schedule:
+    # Runs every 10 minutes, 24 hours a day, 7 days a week
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  keep-app-awake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Ping App URL to Prevent Inactivity Sleep
+        run: |
+          # Read URL from repository secret APP_URL, or fallback to keep_alive_url.txt
+          TARGET_URL="${{ secrets.APP_URL }}"
+          if [ -z "$TARGET_URL" ] && [ -f "keep_alive_url.txt" ]; then
+            TARGET_URL=$(cat keep_alive_url.txt | tr -d '[:space:]')
+          fi
+
+          if [ -z "$TARGET_URL" ] || [ "$TARGET_URL" = "https://your-app-name.streamlit.app" ]; then
+            echo "Notice: No valid live URL configured yet in secrets.APP_URL or keep_alive_url.txt."
+            echo "Once you deploy, add your live URL to keep_alive_url.txt or GitHub Secrets to enable 24/7 pings."
+          else
+            echo "Sending keep-alive ping to $TARGET_URL ..."
+            STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" -m 30 "$TARGET_URL" || echo "000")
+            echo "Response status code: $STATUS_CODE"
+            echo "Ping completed! App activity refreshed to prevent cloud sleep."
+          fi

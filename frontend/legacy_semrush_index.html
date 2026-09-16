@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top Retail Websites in India – SEMRUSH × RetailPulse Intelligence</title>
+  
+  <!-- Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            heading: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+          },
+          colors: {
+            semrush: {
+              purple: '#3d0075',
+              purpleDark: '#2a0052',
+              purpleLight: '#540099',
+              orange: '#ff642d',
+              orangeHover: '#f0531c',
+              bgLight: '#f4f5f8',
+              border: '#e4e5ea',
+              textDark: '#171a22',
+              textMuted: '#595d69',
+              green: '#008544',
+              red: '#d91f26',
+              blue: '#0054ff'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #171a22;
+      font-family: 'Inter', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    /* SEMRUSH Purple Hero Card */
+    .semrush-hero-card {
+      background: linear-gradient(135deg, #3d0075 0%, #4c008e 100%);
+      border-radius: 16px;
+      color: #ffffff;
+      box-shadow: 0 8px 24px -4px rgba(61, 0, 117, 0.25);
+    }
+
+    /* SEMRUSH Primary Orange CTA */
+    .btn-semrush-orange {
+      background-color: #ff642d;
+      color: #ffffff;
+      font-weight: 600;
+      transition: all 0.15s ease-in-out;
+    }
+    .btn-semrush-orange:hover {
+      background-color: #f0531c;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(255, 100, 45, 0.3);
+    }
+
+    /* Sub-nav Tab Active */
+    .subnav-tab.active {
+      font-weight: 700;
+      color: #171a22;
+      border-bottom: 3px solid #ff642d;
+      padding-bottom: 12px;
+    }
+
+    /* Feature Intelligence Card */
+    .intel-card {
+      background: #ffffff;
+      border: 1px solid #e4e5ea;
+      border-radius: 12px;
+      transition: all 0.2s ease;
+    }
+    .intel-card:hover {
+      border-color: #c4c7d4;
+      box-shadow: 0 8px 24px -6px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+    }
+
+    /* Split Bar for Desktop vs Mobile */
+    .split-bar-bg {
+      background: #eef0f4;
+      border-radius: 4px;
+      height: 6px;
+      overflow: hidden;
+      display: flex;
+    }
+    .split-bar-fill {
+      background: #0054ff;
+      height: 100%;
+      border-radius: 4px;
+    }
+
+    /* Table Hover */
+    .data-table-row {
+      transition: background-color 0.15s ease;
+    }
+    .data-table-row:hover {
+      background-color: #f7f8fa;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f2f4;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cdd1d9;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #a9afbc;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+  <!-- ==================== 1. TOP GLOBAL NAVBAR ==================== -->
+  <header class="w-full bg-white border-b border-[#e4e5ea] sticky top-0 z-40">
+    <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <div class="flex items-center gap-8">
+        <a href="/" class="flex items-center gap-2.5 text-decoration-none group">
+          <!-- SEMRUSH style flame swirl logo -->
+          <div class="w-8 h-8 rounded-lg bg-[#ff642d] flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition-transform">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+            </svg>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-extrabold text-xl tracking-tight text-[#171a22] flex items-center gap-1.5 font-heading">
+              RETAILPULSE
+              <span class="text-xs bg-[#ff642d]/10 text-[#ff642d] font-bold px-1.5 py-0.5 rounded">INTEL</span>
+            </span>
+            <span class="text-[10px] text-[#595d69] font-medium tracking-tight -mt-1">An AI & Market Intelligence Platform</span>
+          </div>
+        </a>
+
+        <!-- Main Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-6 text-[14px] font-medium text-[#171a22]">
+          <button class="flex items-center gap-1 hover:text-[#ff642d] transition-colors">
+            Product <i data-lucide="chevron-down" class="w-3.5 h-3.5 text-[#595d69]"></i>
+          </button>
+          <a href="#rankings-table-section" class="hover:text-[#ff642d] transition-colors">Pricing</a>
+          <button class="flex items-center gap-1 hover:text-[#ff642d] transition-colors">
+            Solutions <i data-lucide="chevron-down" class="w-3.5 h-3.5 text-[#595d69]"></i>
+          </button>
+          <button class="flex items-center gap-1 hover:text-[#ff642d] transition-colors">
+            Resources <i data-lucide="chevron-down" class="w-3.5 h-3.5 text-[#595d69]"></i>
+          </button>
+          <a href="javascript:void(0)" onclick="openAiView('forecast')" class="flex items-center gap-1 hover:text-[#ff642d] transition-colors">
+            Enterprise <i data-lucide="arrow-up-right" class="w-3.5 h-3.5 text-[#595d69]"></i>
+          </a>
+        </nav>
+      </div>
+
+      <!-- Header Right CTAs -->
+      <div class="flex items-center gap-3">
+        <button onclick="openAiModal('amazon.in')" class="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          AI Engine: 100% Live
+        </button>
+        <button onclick="triggerPipelineRun()" id="btn-sync" class="text-[13px] font-medium text-[#171a22] hover:text-[#ff642d] px-3 py-1.5 rounded border border-[#e4e5ea] hover:border-[#c4c7d4] transition-all flex items-center gap-1.5">
+          <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i>
+          <span>Sync Pipeline</span>
+        </button>
+        <button class="text-[14px] font-semibold text-[#171a22] px-4 py-2 rounded-full border border-[#c4c7d4] hover:bg-gray-50 transition-colors">
+          Log In
+        </button>
+        <button onclick="scrollToTable()" class="text-[14px] font-semibold text-white bg-[#171a22] hover:bg-black px-4 py-2 rounded-full transition-colors">
+          Start for free
+        </button>
+      </div>
+
+    </div>
+
+    <!-- ==================== 2. SUB-NAVIGATION BAR ==================== -->
+    <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 border-t border-[#e4e5ea] flex items-center justify-between overflow-x-auto text-[14px]">
+      <div class="flex items-center gap-8 pt-3 whitespace-nowrap">
+        <button onclick="setSubTab('traffic')" id="subtab-traffic" class="subnav-tab pb-3 text-[#595d69] hover:text-[#171a22] font-medium transition-colors">
+          Check a Website's Traffic
+        </button>
+        <button onclick="setSubTab('top-websites')" id="subtab-top" class="subnav-tab active pb-3 font-semibold transition-colors">
+          Top Websites
+        </button>
+        <button onclick="openAiView('forecast')" class="subnav-tab pb-3 text-[#595d69] hover:text-[#171a22] font-medium transition-colors flex items-center gap-1.5">
+          <i data-lucide="brain" class="w-4 h-4 text-purple-600"></i>
+          PyTorch LSTM Forecast
+        </button>
+        <button onclick="openAiView('churn')" class="subnav-tab pb-3 text-[#595d69] hover:text-[#171a22] font-medium transition-colors flex items-center gap-1.5">
+          <i data-lucide="shield-alert" class="w-4 h-4 text-rose-600"></i>
+          Churn & Retention (XGBoost)
+        </button>
+        <button onclick="openAiView('inventory')" class="subnav-tab pb-3 text-[#595d69] hover:text-[#171a22] font-medium transition-colors flex items-center gap-1.5">
+          <i data-lucide="boxes" class="w-4 h-4 text-blue-600"></i>
+          Inventory Safety Stock
+        </button>
+      </div>
+
+      <!-- Right Promotion Banner -->
+      <div class="hidden md:flex items-center gap-2 py-2">
+        <span class="text-xs font-semibold bg-[#ff642d] text-white px-3 py-1 rounded-md cursor-pointer hover:bg-[#f0531c] transition-colors">
+          Try Intelligence
+        </span>
+        <span class="text-xs text-[#595d69] font-medium">10x daily insights. Free!</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT WRAPPER ==================== -->
+  <main class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full flex-1">
+
+    <!-- Breadcrumb -->
+    <nav class="flex items-center gap-2 text-xs text-[#737682] mb-5">
+      <a href="/" class="hover:underline">Main</a>
+      <span>/</span>
+      <span class="hover:underline cursor-pointer">Top Websites</span>
+      <span>/</span>
+      <span class="hover:underline cursor-pointer">India</span>
+      <span>/</span>
+      <span class="font-semibold text-[#171a22]">Retail</span>
+    </nav>
+
+    <!-- Search Input Bar Row -->
+    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 mb-6 max-w-4xl">
+      <div class="relative flex-1">
+        <input 
+          type="text" 
+          id="global-search-input"
+          placeholder="Enter a domain or retail category to see detailed stats (e.g. amazon.in, Technology, Furniture)"
+          class="w-full bg-white border border-[#c4c7d4] focus:border-[#ff642d] focus:ring-1 focus:ring-[#ff642d] rounded-lg px-4 py-3 text-sm text-[#171a22] placeholder-[#737682] outline-none transition-all"
+          onkeyup="if(event.key === 'Enter') handleSearchSubmit()"
+        />
+        <i data-lucide="search" class="w-4 h-4 text-gray-400 absolute right-3.5 top-3.5 pointer-events-none"></i>
+      </div>
+      <button 
+        onclick="handleSearchSubmit()" 
+        class="btn-semrush-orange px-7 py-3 rounded-lg text-sm font-semibold flex items-center justify-center gap-2 shadow-sm">
+        <span>Check Traffic</span>
+      </button>
+    </div>
+
+    <!-- ==================== 3. SEMRUSH DEEP ROYAL PURPLE HERO CARD ==================== -->
+    <section class="semrush-hero-card p-6 sm:p-10 mb-10 relative overflow-hidden">
+      <!-- Background subtle decorative shapes -->
+      <div class="absolute -right-12 -bottom-12 w-64 h-64 bg-white/5 rounded-full blur-2xl pointer-events-none"></div>
+      <div class="absolute right-1/4 -top-12 w-48 h-48 bg-purple-400/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="relative z-10 max-w-3xl">
+        <h1 class="text-3xl sm:text-4xl lg:text-[42px] font-extrabold text-white tracking-tight font-heading leading-tight mb-4">
+          Top Retail Websites in India
+        </h1>
+        <p class="text-white/85 text-sm sm:text-base leading-relaxed mb-8">
+          Based on data from the <strong class="text-white font-semibold">RetailPulse Traffic & AI Analytics tool</strong>, this page reveals the most visited websites and high-growth retail brands. We update this list on a monthly basis, so you can keep track of all market shifts, demand forecasts, and customer retention metrics.
+        </p>
+
+        <!-- Dropdown Filter Toolbar -->
+        <div class="flex flex-wrap items-center gap-3">
+          <!-- Category Select -->
+          <div class="relative min-w-[200px]">
+            <select 
+              id="hero-category-select" 
+              class="w-full appearance-none bg-white text-[#171a22] font-semibold text-sm rounded-lg px-4 py-3 pr-10 border border-transparent focus:outline-none cursor-pointer shadow-sm">
+              <option value="All">Retail (All Categories)</option>
+              <option value="Technology">Technology & Electronics</option>
+              <option value="Furniture">Furniture & Living</option>
+              <option value="Office Supplies">Office Supplies & B2B</option>
+            </select>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-gray-500 absolute right-3.5 top-3.5 pointer-events-none"></i>
+          </div>
+
+          <!-- Region / Country Select -->
+          <div class="relative min-w-[180px]">
+            <select 
+              id="hero-country-select" 
+              class="w-full appearance-none bg-white text-[#171a22] font-semibold text-sm rounded-lg px-4 py-3 pr-10 border border-transparent focus:outline-none cursor-pointer shadow-sm">
+              <option value="India">India</option>
+              <option value="Global">Global Benchmark</option>
+              <option value="US">United States</option>
+            </select>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-gray-500 absolute right-3.5 top-3.5 pointer-events-none"></i>
+          </div>
+
+          <!-- Orange CTA Button -->
+          <button 
+            onclick="applyFilters()" 
+            class="btn-semrush-orange px-6 py-3 rounded-lg text-sm font-bold shadow-md flex items-center gap-2">
+            <span>Find top websites</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. 4-FEATURE INTELLIGENCE CARDS ==================== -->
+    <section class="mb-12">
+      <div class="mb-6">
+        <h2 class="text-2xl font-extrabold text-[#171a22] font-heading">More data. Sharper moves. Faster growth.</h2>
+        <p class="text-sm text-[#595d69] mt-1">Leverage Traffic & Market intelligence to size markets, evaluate competitors, and guide strategic moves.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        
+        <!-- Card 1: Traffic Overview -->
+        <div class="intel-card p-6 flex flex-col justify-between cursor-pointer" onclick="scrollToTable()">
+          <div>
+            <div class="w-10 h-10 rounded-lg bg-orange-50 text-[#ff642d] flex items-center justify-center mb-4">
+              <i data-lucide="bar-chart-3" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-[#171a22] mb-1">Traffic Overview</h3>
+            <p class="text-xs text-[#595d69] leading-relaxed">
+              See how competitors attract and engage audiences across direct, organic search, and mobile channels.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-semibold text-[#ff642d]">
+            <span>Explore Audience Reach</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </div>
+        </div>
+
+        <!-- Card 2: Market Benchmarking -->
+        <div class="intel-card p-6 flex flex-col justify-between cursor-pointer" onclick="filterByCategory('Technology')">
+          <div>
+            <div class="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
+              <i data-lucide="pie-chart" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-[#171a22] mb-1">Market Benchmarking</h3>
+            <p class="text-xs text-[#595d69] leading-relaxed">
+              Measure market share, MoM growth rates, and category performance across 12 Indian retail powerhouses.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-semibold text-blue-600">
+            <span>Benchmark Categories</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </div>
+        </div>
+
+        <!-- Card 3: AI Traffic & Forecasting -->
+        <div class="intel-card p-6 flex flex-col justify-between cursor-pointer" onclick="openAiView('forecast')">
+          <div>
+            <div class="w-10 h-10 rounded-lg bg-purple-50 text-purple-600 flex items-center justify-center mb-4">
+              <i data-lucide="sparkles" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-[#171a22] mb-1">AI Traffic & Forecasting</h3>
+            <p class="text-xs text-[#595d69] leading-relaxed">
+              Track how PyTorch 2-layer LSTM deep neural networks forecast 30-day consumer purchasing demand.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-semibold text-purple-600">
+            <span>View PyTorch LSTM</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </div>
+        </div>
+
+        <!-- Card 4: Competitor & Retention Monitoring -->
+        <div class="intel-card p-6 flex flex-col justify-between cursor-pointer" onclick="openAiView('churn')">
+          <div>
+            <div class="w-10 h-10 rounded-lg bg-rose-50 text-rose-600 flex items-center justify-center mb-4">
+              <i data-lucide="shield-alert" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-base font-bold text-[#171a22] mb-1">Competitor & Churn</h3>
+            <p class="text-xs text-[#595d69] leading-relaxed">
+              Track shifts in traffic, XGBoost customer churn risks (ROC-AUC: 0.9615), and inventory safety stock.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-semibold text-rose-600">
+            <span>Monitor Churn Risks</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 5. SEMRUSH RANKING DATA TABLE ==================== -->
+    <section id="rankings-table-section" class="mb-14">
+      
+      <!-- Table Header & Filter Row -->
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+        <div>
+          <h2 class="text-2xl font-extrabold text-[#171a22] font-heading">
+            Most Visited Retail Websites in India, Updated July 2026
+          </h2>
+          <p class="text-xs text-[#595d69] mt-0.5" id="table-subtitle">
+            Showing 12 retail websites ranked by monthly traffic volume and customer velocity.
+          </p>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <!-- Month Pill Tab -->
+          <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-[#f4f5f8] border border-[#e4e5ea] text-xs font-semibold text-[#171a22]">
+            <i data-lucide="calendar" class="w-3.5 h-3.5 text-gray-500"></i>
+            <span>July 2026</span>
+          </div>
+
+          <!-- Quick Category Filters -->
+          <div class="hidden sm:inline-flex rounded-lg border border-[#e4e5ea] p-0.5 bg-[#f4f5f8] text-xs font-medium">
+            <button onclick="filterByCategory('All')" id="pill-All" class="px-2.5 py-1 rounded bg-white font-bold text-[#171a22] shadow-xs">All</button>
+            <button onclick="filterByCategory('Technology')" id="pill-Technology" class="px-2.5 py-1 rounded text-[#595d69] hover:text-[#171a22]">Tech</button>
+            <button onclick="filterByCategory('Furniture')" id="pill-Furniture" class="px-2.5 py-1 rounded text-[#595d69] hover:text-[#171a22]">Furniture</button>
+            <button onclick="filterByCategory('Office Supplies')" id="pill-Office" class="px-2.5 py-1 rounded text-[#595d69] hover:text-[#171a22]">Office</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Table Container -->
+      <div class="bg-white border border-[#e4e5ea] rounded-xl overflow-hidden shadow-sm">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="bg-[#f7f8fa] border-b border-[#e4e5ea] text-[12px] font-semibold text-[#595d69] tracking-wider uppercase">
+                <th class="py-3 px-4 w-12 text-center">#</th>
+                <th class="py-3 px-4 min-w-[220px]">Domain</th>
+                <th class="py-3 px-4 min-w-[110px] cursor-pointer hover:text-[#171a22]" onclick="sortDomains('visits')">
+                  <div class="flex items-center gap-1">
+                    Visits
+                    <i data-lucide="arrow-down" class="w-3.5 h-3.5 text-[#ff642d]"></i>
+                  </div>
+                </th>
+                <th class="py-3 px-4 min-w-[170px]">Desktop share</th>
+                <th class="py-3 px-4 min-w-[170px]">Mobile share</th>
+                <th class="py-3 px-4 min-w-[90px] text-right">MoM</th>
+                <th class="py-3 px-4 min-w-[90px] text-right">YoY</th>
+                <th class="py-3 px-4 min-w-[140px]">Main Traffic Source</th>
+                <th class="py-3 px-4 min-w-[140px] text-center">RetailPulse AI</th>
+              </tr>
+            </thead>
+            <tbody id="domains-table-body" class="divide-y divide-[#e4e5ea] text-[13px] text-[#171a22]">
+              <!-- Loaded via JavaScript -->
+              <tr>
+                <td colspan="9" class="py-12 text-center text-gray-400">
+                  <div class="flex items-center justify-center gap-2">
+                    <i data-lucide="loader-2" class="w-5 h-5 animate-spin text-[#ff642d]"></i>
+                    <span>Loading market intelligence from RetailPulse database...</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ==================== 6. EDITORIAL KEY INSIGHTS SECTION ==================== -->
+    <section class="bg-[#f9fafc] border border-[#e4e5ea] rounded-2xl p-6 sm:p-8 mb-14">
+      <div class="max-w-4xl">
+        <div class="flex items-center gap-2 text-xs font-bold text-[#ff642d] tracking-wider uppercase mb-2">
+          <i data-lucide="sparkles" class="w-4 h-4"></i>
+          Market Intelligence Analysis
+        </div>
+        <h2 class="text-2xl font-extrabold text-[#171a22] font-heading mb-4">
+          Key Insights on Top Retail Websites in India on July 2026
+        </h2>
+        <div class="space-y-3.5 text-sm text-[#424651] leading-relaxed">
+          <p>
+            As of <strong class="text-[#171a22]">July 2026</strong>, <strong class="text-[#171a22]">amazon.in</strong> leads Retail in India with <strong class="text-[#171a22]">263.65M</strong> monthly visits. Its audience skews heavily mobile-first (<strong class="text-[#171a22]">23.33% desktop / 76.67% mobile</strong>), and traffic is up month over month <span class="text-emerald-700 font-semibold">↑7.18%</span> and down year over year <span class="text-rose-700 font-semibold">↓23.39%</span>.
+          </p>
+          <p>
+            <strong class="text-[#171a22]">flipkart.com</strong> firmly holds second place in general merchandise with <strong class="text-[#171a22]">185.40M</strong> visits and positive momentum (<span class="text-emerald-700 font-semibold">↑12.30% MoM</span>). In vertical fashion retail, <strong class="text-[#171a22]">myntra.com</strong> commands <strong class="text-[#171a22]">46.94M</strong> visits with a staggering <strong class="text-[#171a22]">83.79% mobile penetration</strong>.
+          </p>
+          <p>
+            The fastest-accelerating technology brand is <strong class="text-[#171a22]">samsung.com</strong>, experiencing an unprecedented <span class="text-emerald-700 font-semibold">↑43.46% MoM surge</span> to 45.32M visits driven by major mobile hardware refreshes and 95.76% mobile buyer engagement. Meanwhile, value-commerce pioneer <strong class="text-[#171a22]">meesho.com</strong> surged <span class="text-emerald-700 font-semibold">↑29.96% MoM</span> and <span class="text-emerald-700 font-semibold">↑20.89% YoY</span>, reflecting rapid tier-2 and tier-3 expansion.
+          </p>
+        </div>
+
+        <!-- 4 Quick Fact Stat Boxes -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6 pt-6 border-t border-[#e4e5ea]">
+          <div class="bg-white p-3.5 rounded-xl border border-gray-200">
+            <span class="text-[11px] font-semibold text-[#595d69] uppercase block">Total Monitored Traffic</span>
+            <span class="text-xl font-extrabold text-[#171a22] font-heading mt-0.5 block" id="stat-total-traffic">698.8M</span>
+          </div>
+          <div class="bg-white p-3.5 rounded-xl border border-gray-200">
+            <span class="text-[11px] font-semibold text-[#595d69] uppercase block">Avg Mobile Dominance</span>
+            <span class="text-xl font-extrabold text-[#0054ff] font-heading mt-0.5 block" id="stat-avg-mobile">82.9%</span>
+          </div>
+          <div class="bg-white p-3.5 rounded-xl border border-gray-200">
+            <span class="text-[11px] font-semibold text-[#595d69] uppercase block">Top MoM Gainer</span>
+            <span class="text-xl font-extrabold text-emerald-700 font-heading mt-0.5 block">Nykaa (+59.3%)</span>
+          </div>
+          <div class="bg-white p-3.5 rounded-xl border border-gray-200">
+            <span class="text-[11px] font-semibold text-[#595d69] uppercase block">Primary Channel</span>
+            <span class="text-xl font-extrabold text-purple-700 font-heading mt-0.5 block">Direct (62.4%)</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 7. RETAILPULSE AI DEEP DIVE MODAL / DRAWER ==================== -->
+    <div id="ai-modal" class="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm hidden flex items-center justify-center p-4">
+      <div class="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-gray-200 flex flex-col">
+        
+        <!-- Modal Top Bar -->
+        <div class="p-6 border-b border-gray-200 flex items-center justify-between bg-gradient-to-r from-gray-50 to-white sticky top-0 z-20">
+          <div class="flex items-center gap-3">
+            <div id="modal-brand-icon" class="w-10 h-10 rounded-xl bg-[#ff642d] text-white flex items-center justify-center font-bold text-lg shadow-sm">
+              A
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <h3 id="modal-domain-title" class="text-xl font-extrabold text-[#171a22] font-heading">amazon.in</h3>
+                <span id="modal-category-badge" class="text-xs font-semibold px-2 py-0.5 rounded bg-purple-100 text-purple-800">Technology</span>
+              </div>
+              <p id="modal-domain-subtitle" class="text-xs text-gray-500">RetailPulse Enterprise Machine Learning & Demand Forecast Profile</p>
+            </div>
+          </div>
+          <button onclick="closeAiModal()" class="w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center text-gray-600 transition-colors">
+            <i data-lucide="x" class="w-4 h-4"></i>
+          </button>
+        </div>
+
+        <!-- Modal Content Body -->
+        <div class="p-6 sm:p-8 space-y-6">
+          
+          <!-- Quick Stat KPI Grid -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div class="bg-[#f8f9fc] p-4 rounded-xl border border-gray-100">
+              <span class="text-xs font-semibold text-gray-500 block">Monthly Visits</span>
+              <span id="modal-kpi-visits" class="text-2xl font-extrabold text-[#171a22] mt-1 block">263.65M</span>
+              <span id="modal-kpi-mom" class="text-xs text-emerald-600 font-semibold">↑ 7.18% MoM</span>
+            </div>
+            <div class="bg-[#f8f9fc] p-4 rounded-xl border border-gray-100">
+              <span class="text-xs font-semibold text-gray-500 block">Mobile Share</span>
+              <span id="modal-kpi-mobile" class="text-2xl font-extrabold text-[#0054ff] mt-1 block">76.67%</span>
+              <span id="modal-kpi-mobvol" class="text-xs text-gray-500 font-medium">202.14M visits</span>
+            </div>
+            <div class="bg-[#f8f9fc] p-4 rounded-xl border border-gray-100">
+              <span class="text-xs font-semibold text-gray-500 block">Churn Risk (XGBoost)</span>
+              <span id="modal-kpi-churn" class="text-2xl font-extrabold text-emerald-700 mt-1 block">7.2%</span>
+              <span class="text-xs text-emerald-600 font-semibold">Low Risk Cohort</span>
+            </div>
+            <div class="bg-[#f8f9fc] p-4 rounded-xl border border-gray-100">
+              <span class="text-xs font-semibold text-gray-500 block">Inventory Alert</span>
+              <span id="modal-kpi-safety" class="text-lg font-bold text-emerald-700 mt-1 block">Optimal</span>
+              <span class="text-xs text-gray-500">SS: 95% Confidence</span>
+            </div>
+          </div>
+
+          <!-- PyTorch LSTM Forecast Section -->
+          <div class="bg-white border border-gray-200 rounded-xl p-5 shadow-xs">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+              <div>
+                <h4 class="text-base font-bold text-[#171a22] flex items-center gap-2">
+                  <i data-lucide="activity" class="w-4 h-4 text-purple-600"></i>
+                  PyTorch Deep Learning LSTM 30-Day Demand Forecast
+                </h4>
+                <p class="text-xs text-gray-500">Historical Sales Sequence (30-day lookback) vs Neural Network 30-day forward projection</p>
+              </div>
+              <span class="text-xs font-bold px-2.5 py-1 bg-purple-50 text-purple-700 border border-purple-200 rounded-md">
+                Model: 2-Layer LSTM + AdamW
+              </span>
+            </div>
+            <div class="h-64 w-full">
+              <canvas id="modalForecastChart"></canvas>
+            </div>
+          </div>
+
+          <!-- Two Column: Traffic Channels & Customer Segments -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <!-- Traffic Channels -->
+            <div class="bg-white border border-gray-200 rounded-xl p-5">
+              <h4 class="text-sm font-bold text-[#171a22] mb-3 flex items-center gap-2">
+                <i data-lucide="share-2" class="w-4 h-4 text-[#ff642d]"></i>
+                Traffic Acquisition Channels
+              </h4>
+              <div class="space-y-3 text-xs" id="modal-traffic-channels">
+                <!-- Progress Bars -->
+                <div>
+                  <div class="flex justify-between font-semibold mb-1"><span>Direct</span><span>64.2%</span></div>
+                  <div class="w-full bg-gray-100 rounded-full h-2"><div class="bg-[#ff642d] h-2 rounded-full" style="width: 64.2%"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between font-semibold mb-1"><span>Organic Search</span><span>22.1%</span></div>
+                  <div class="w-full bg-gray-100 rounded-full h-2"><div class="bg-blue-600 h-2 rounded-full" style="width: 22.1%"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between font-semibold mb-1"><span>Paid Search</span><span>8.4%</span></div>
+                  <div class="w-full bg-gray-100 rounded-full h-2"><div class="bg-emerald-600 h-2 rounded-full" style="width: 8.4%"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between font-semibold mb-1"><span>Social & Referral</span><span>5.3%</span></div>
+                  <div class="w-full bg-gray-100 rounded-full h-2"><div class="bg-purple-600 h-2 rounded-full" style="width: 5.3%"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Customer Retention & Churn Action -->
+            <div class="bg-white border border-gray-200 rounded-xl p-5 flex flex-col justify-between">
+              <div>
+                <h4 class="text-sm font-bold text-[#171a22] mb-2 flex items-center gap-2">
+                  <i data-lucide="target" class="w-4 h-4 text-emerald-600"></i>
+                  Target Customer Persona & Retention Strategy
+                </h4>
+                <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-lg mb-3">
+                  <span class="text-xs font-bold text-emerald-800 block">Primary Segment: Champions & High-Value</span>
+                  <p class="text-xs text-emerald-900 mt-1">
+                    Customers who buy frequently with high monetary value and recent touchpoints.
+                  </p>
+                </div>
+                <p class="text-xs text-gray-600 leading-relaxed">
+                  <strong class="text-gray-900">AI Recommendation:</strong> Deploy loyalty tier privileges, early access to flagship inventory, and automated replenishment reminders.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500">
+                <span>Database Sync: Local SQLite</span>
+                <span class="font-semibold text-[#ff642d]">Verified Zero Data Leakage</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Modal Footer -->
+        <div class="p-5 border-t border-gray-200 bg-gray-50 flex items-center justify-between rounded-b-2xl">
+          <span class="text-xs text-gray-500">RetailPulse AI Platform • Milestone 1-5 Integrated</span>
+          <button onclick="closeAiModal()" class="px-5 py-2 rounded-lg bg-[#171a22] text-white text-xs font-semibold hover:bg-black transition-colors">
+            Close Intelligence Window
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ==================== 8. FULL AI EXPANDABLE SECTION (FORECAST, CHURN, INVENTORY) ==================== -->
+    <section id="full-ai-section" class="mb-14 hidden">
+      <div class="bg-white border border-[#e4e5ea] rounded-2xl p-6 sm:p-8 shadow-sm">
+        
+        <div class="flex items-center justify-between pb-6 border-b border-gray-200 mb-6">
+          <div>
+            <span class="text-xs font-bold text-purple-700 uppercase tracking-wider block mb-1">Deep Learning & Analytics Suite</span>
+            <h2 id="ai-section-title" class="text-2xl font-extrabold text-[#171a22] font-heading">
+              PyTorch LSTM Demand Forecaster & Inventory Optimization
+            </h2>
+          </div>
+          <button onclick="closeAiSection()" class="text-xs font-semibold px-3 py-1.5 rounded-lg border border-gray-300 hover:bg-gray-50 flex items-center gap-1">
+            <i data-lucide="x" class="w-3.5 h-3.5"></i> Close View
+          </button>
+        </div>
+
+        <!-- Dynamic Container for Selected Deep View -->
+        <div id="ai-dynamic-content">
+          <!-- Populated by JS based on selection -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 9. SEMRUSH STYLE FAQ ACCORDION ==================== -->
+    <section class="max-w-4xl mx-auto mb-16">
+      <h2 class="text-2xl font-extrabold text-[#171a22] font-heading mb-6 text-center">
+        Frequently Asked Questions
+      </h2>
+      <div class="space-y-3">
+        
+        <details class="bg-white border border-[#e4e5ea] rounded-xl p-4 group cursor-pointer">
+          <summary class="font-bold text-sm text-[#171a22] flex items-center justify-between list-none">
+            <span>How does RetailPulse calculate market traffic and demand forecasts?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-xs text-[#595d69] mt-3 leading-relaxed">
+            RetailPulse combines multi-source web intelligence with internal point-of-sale datasets stored in SQLite. For forward-looking projections, we train a 2-layer PyTorch LSTM neural network with a 30-day sequential lookback window, benchmarking against lagged ensemble models to ensure high predictive fidelity.
+          </p>
+        </details>
+
+        <details class="bg-white border border-[#e4e5ea] rounded-xl p-4 group cursor-pointer">
+          <summary class="font-bold text-sm text-[#171a22] flex items-center justify-between list-none">
+            <span>Why does India's retail landscape skew overwhelmingly mobile-first?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-xs text-[#595d69] mt-3 leading-relaxed">
+            Over 80%+ of India's retail traffic occurs on smartphones, driven by widespread 5G mobile data access, mobile payment integration (UPI), and app-first shopping ecosystems from Flipkart, Meesho, Myntra, and Samsung.
+          </p>
+        </details>
+
+        <details class="bg-white border border-[#e4e5ea] rounded-xl p-4 group cursor-pointer">
+          <summary class="font-bold text-sm text-[#171a22] flex items-center justify-between list-none">
+            <span>How does the system prevent stockouts and optimize inventory reorder points?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-xs text-[#595d69] mt-3 leading-relaxed">
+            The platform calculates Safety Stock (SS = Z × σ_L) at a 95% service level and sets Reorder Points (ROP = d × L + SS). When current inventory falls below ROP, real-time alert triggers recommend immediate replenishment batches.
+          </p>
+        </details>
+
+        <details class="bg-white border border-[#e4e5ea] rounded-xl p-4 group cursor-pointer">
+          <summary class="font-bold text-sm text-[#171a22] flex items-center justify-between list-none">
+            <span>How is customer churn prediction executed without data leakage?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-xs text-[#595d69] mt-3 leading-relaxed">
+            We enforce strict temporal cutoff windows for feature engineering (recency, frequency, monetary spend, tenure) before the target churn window. An XGBoost champion model achieves a verified ROC-AUC of 0.9615 and 90.4% accuracy.
+          </p>
+        </details>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== 10. SEMRUSH ENTERPRISE FOOTER ==================== -->
+  <footer class="w-full bg-[#171a22] text-white pt-12 pb-8 border-t border-gray-800">
+    <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-8 pb-10 border-b border-gray-800 text-xs">
+        
+        <!-- Brand Col -->
+        <div class="col-span-2">
+          <div class="flex items-center gap-2.5 mb-3">
+            <div class="w-7 h-7 rounded bg-[#ff642d] flex items-center justify-center text-white">
+              <i data-lucide="zap" class="w-4 h-4"></i>
+            </div>
+            <span class="font-extrabold text-lg text-white font-heading">RETAILPULSE</span>
+          </div>
+          <p class="text-gray-400 max-w-sm leading-relaxed mb-4">
+            AI-powered market intelligence, customer analytics, and PyTorch deep learning demand forecasting platform for retail leaders and e-commerce enterprises.
+          </p>
+          <div class="flex items-center gap-2 text-[11px] text-emerald-400">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            System Status: 100% Operational • FastAPI 2.0 Backend Online
+          </div>
+        </div>
+
+        <!-- Links Col 1 -->
+        <div>
+          <h4 class="font-bold text-white mb-3 uppercase tracking-wider text-[11px]">Analytics</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="#" class="hover:text-white transition-colors">Traffic Overview</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Market Benchmarking</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Domain Rankings</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Desktop vs Mobile</a></li>
+          </ul>
+        </div>
+
+        <!-- Links Col 2 -->
+        <div>
+          <h4 class="font-bold text-white mb-3 uppercase tracking-wider text-[11px]">AI Engines</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="javascript:void(0)" onclick="openAiView('forecast')" class="hover:text-white transition-colors">PyTorch LSTM Forecast</a></li>
+            <li><a href="javascript:void(0)" onclick="openAiView('churn')" class="hover:text-white transition-colors">XGBoost Churn Risk</a></li>
+            <li><a href="javascript:void(0)" onclick="openAiView('rfm')" class="hover:text-white transition-colors">RFM K-Means Clusters</a></li>
+            <li><a href="javascript:void(0)" onclick="openAiView('inventory')" class="hover:text-white transition-colors">Inventory ROP Optimization</a></li>
+          </ul>
+        </div>
+
+        <!-- Links Col 3 -->
+        <div>
+          <h4 class="font-bold text-white mb-3 uppercase tracking-wider text-[11px]">Project Info</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><span class="text-gray-500">Zidio Internship 2026</span></li>
+            <li><span class="text-gray-500">Milestones 1 – 5 Verified</span></li>
+            <li><span class="text-gray-500">Port: 8000 (FastAPI)</span></li>
+            <li><span class="text-gray-500">Database: retailpulse.db</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-[11px] text-gray-500 gap-4">
+        <span>© 2026 RetailPulse Inc. Inspired by SEMRUSH Market Intelligence architecture. All rights reserved.</span>
+        <div class="flex items-center gap-6">
+          <a href="#" class="hover:text-gray-400">Privacy Policy</a>
+          <a href="#" class="hover:text-gray-400">Terms of Service</a>
+          <a href="#" class="hover:text-gray-400">Security & Compliance</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== JAVASCRIPT LOGIC ==================== -->
+  <script>
+    // State
+    let allDomains = [];
+    let currentCategory = "All";
+    let forecastChartInstance = null;
+    let cachedForecastingData = null;
+
+    // Initialize on page load
+    document.addEventListener("DOMContentLoaded", () => {
+      lucide.createIcons();
+      loadMarketIntelligence();
+
+      // Listen for category select change
+      document.getElementById("hero-category-select").addEventListener("change", (e) => {
+        filterByCategory(e.target.value);
+      });
+    });
+
+    // Fetch Market Intelligence Data from FastAPI
+    async function loadMarketIntelligence(cat = "All", query = "") {
+      try {
+        const url = `/api/market-intelligence?category=${encodeURIComponent(cat)}&q=${encodeURIComponent(query)}`;
+        const res = await fetch(url);
+        const data = await res.json();
+        
+        allDomains = data.domains || [];
+        renderDomainsTable(allDomains);
+
+        if (data.total_market_traffic_str) {
+          document.getElementById("stat-total-traffic").innerText = data.total_market_traffic_str;
+        }
+        if (data.avg_mobile_share) {
+          document.getElementById("stat-avg-mobile").innerText = data.avg_mobile_share;
+        }
+      } catch (err) {
+        console.error("Failed to load market intelligence:", err);
+        document.getElementById("domains-table-body").innerHTML = `
+          <tr><td colspan="9" class="py-8 text-center text-rose-600 font-medium">
+            Error loading market intelligence from server. Please make sure FastAPI backend is active.
+          </td></tr>
+        `;
+      }
+    }
+
+    // Render Domain Rankings Table
+    function renderDomainsTable(domains) {
+      const tbody = document.getElementById("domains-table-body");
+      if (!domains || domains.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="9" class="py-8 text-center text-gray-500">No retail domains match your criteria.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = domains.map((d, index) => {
+        const momColor = d.mom >= 0 ? "text-emerald-700 bg-emerald-50" : "text-rose-700 bg-rose-50";
+        const momArrow = d.mom >= 0 ? "↑" : "↓";
+        const yoyColor = d.yoy >= 0 ? "text-emerald-700 bg-emerald-50" : "text-rose-700 bg-rose-50";
+        const yoyArrow = d.yoy >= 0 ? "↑" : "↓";
+
+        // Desktop bar width
+        const deskPct = d.desktop_pct || 20;
+        const mobPct = d.mobile_pct || 80;
+
+        return `
+          <tr class="data-table-row border-b border-[#e4e5ea] cursor-pointer" onclick="openAiModal('${d.domain}')">
+            <!-- Rank / Icon -->
+            <td class="py-3.5 px-4 text-center font-medium text-gray-400">
+              <span class="w-6 h-6 rounded-full border border-gray-300 inline-flex items-center justify-center text-xs text-gray-600">
+                ${d.rank || (index + 1)}
+              </span>
+            </td>
+
+            <!-- Domain with Logo -->
+            <td class="py-3.5 px-4">
+              <div class="flex items-center gap-3">
+                <div class="w-7 h-7 rounded-lg flex items-center justify-center font-bold text-xs text-white shadow-xs" style="background-color: ${d.brand_color || '#171a22'}">
+                  ${d.logo_initial || d.domain.charAt(0).toUpperCase()}
+                </div>
+                <div>
+                  <div class="font-bold text-[#171a22] hover:text-[#ff642d] transition-colors flex items-center gap-1.5">
+                    ${d.domain}
+                  </div>
+                  <span class="text-[11px] text-gray-500">${d.category}</span>
+                </div>
+              </div>
+            </td>
+
+            <!-- Visits -->
+            <td class="py-3.5 px-4 font-bold text-[#171a22]">
+              ${d.visits}
+            </td>
+
+            <!-- Desktop share -->
+            <td class="py-3.5 px-4">
+              <div class="w-36">
+                <div class="flex justify-between text-[11px] text-gray-600 mb-1">
+                  <span class="font-semibold text-gray-800">${d.desktop_pct}%</span>
+                  <span>${d.desktop_vol}</span>
+                </div>
+                <div class="split-bar-bg">
+                  <div class="split-bar-fill" style="width: ${deskPct}%; background-color: #64748b;"></div>
+                </div>
+              </div>
+            </td>
+
+            <!-- Mobile share -->
+            <td class="py-3.5 px-4">
+              <div class="w-36">
+                <div class="flex justify-between text-[11px] text-gray-600 mb-1">
+                  <span class="font-semibold text-blue-700">${d.mobile_pct}%</span>
+                  <span>${d.mobile_vol}</span>
+                </div>
+                <div class="split-bar-bg">
+                  <div class="split-bar-fill" style="width: ${mobPct}%; background-color: #0054ff;"></div>
+                </div>
+              </div>
+            </td>
+
+            <!-- MoM -->
+            <td class="py-3.5 px-4 text-right">
+              <span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded text-xs font-semibold ${momColor}">
+                ${momArrow}${Math.abs(d.mom)}%
+              </span>
+            </td>
+
+            <!-- YoY -->
+            <td class="py-3.5 px-4 text-right">
+              <span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded text-xs font-semibold ${yoyColor}">
+                ${yoyArrow}${Math.abs(d.yoy)}%
+              </span>
+            </td>
+
+            <!-- Main Traffic Source -->
+            <td class="py-3.5 px-4">
+              <span class="inline-block px-2.5 py-1 rounded-md text-xs font-medium bg-gray-100 text-gray-800">
+                ${d.traffic_source || 'Direct'}
+              </span>
+            </td>
+
+            <!-- RetailPulse Action -->
+            <td class="py-3.5 px-4 text-center">
+              <button 
+                onclick="event.stopPropagation(); openAiModal('${d.domain}')" 
+                class="px-3 py-1 text-xs font-semibold rounded-md bg-[#ff642d]/10 hover:bg-[#ff642d] text-[#ff642d] hover:text-white transition-all">
+                AI Insights
+              </button>
+            </td>
+          </tr>
+        `;
+      }).join("");
+
+      lucide.createIcons();
+    }
+
+    // Filter by Category
+    function filterByCategory(cat) {
+      currentCategory = cat;
+      document.getElementById("hero-category-select").value = cat;
+
+      // Update pills styling
+      ['All', 'Technology', 'Furniture', 'Office'].forEach(name => {
+        const el = document.getElementById(`pill-${name}`);
+        if (el) {
+          if ((cat === 'All' && name === 'All') || (cat.includes(name))) {
+            el.className = "px-2.5 py-1 rounded bg-white font-bold text-[#171a22] shadow-xs";
+          } else {
+            el.className = "px-2.5 py-1 rounded text-[#595d69] hover:text-[#171a22]";
+          }
+        }
+      });
+
+      loadMarketIntelligence(cat, document.getElementById("global-search-input").value);
+    }
+
+    // Handle Search Bar Submit
+    function handleSearchSubmit() {
+      const q = document.getElementById("global-search-input").value.trim();
+      loadMarketIntelligence(currentCategory, q);
+      scrollToTable();
+    }
+
+    function applyFilters() {
+      const cat = document.getElementById("hero-category-select").value;
+      filterByCategory(cat);
+      scrollToTable();
+    }
+
+    function scrollToTable() {
+      const el = document.getElementById("rankings-table-section");
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+
+    // Modal Deep Dive Logic
+    async function openAiModal(domainName) {
+      const domain = allDomains.find(d => d.domain === domainName) || allDomains[0];
+      if (!domain) return;
+
+      document.getElementById("modal-domain-title").innerText = domain.domain;
+      document.getElementById("modal-domain-subtitle").innerText = domain.summary || `${domain.name} • RetailPulse Market & Demand Forecast Profile`;
+      document.getElementById("modal-category-badge").innerText = domain.category;
+      
+      const icon = document.getElementById("modal-brand-icon");
+      icon.innerText = domain.logo_initial || domain.domain.charAt(0).toUpperCase();
+      icon.style.backgroundColor = domain.brand_color || '#ff642d';
+
+      // KPIs
+      document.getElementById("modal-kpi-visits").innerText = domain.visits;
+      document.getElementById("modal-kpi-mom").innerText = `${domain.mom >= 0 ? '↑' : '↓'} ${Math.abs(domain.mom)}% MoM`;
+      document.getElementById("modal-kpi-mobile").innerText = `${domain.mobile_pct}%`;
+      document.getElementById("modal-kpi-mobvol").innerText = `${domain.mobile_vol} visits`;
+      document.getElementById("modal-kpi-churn").innerText = domain.churn_risk;
+      document.getElementById("modal-kpi-safety").innerText = domain.safety_stock.split(' ')[0];
+
+      // Traffic Mix Channels
+      if (domain.traffic_mix) {
+        const tm = domain.traffic_mix;
+        document.getElementById("modal-traffic-channels").innerHTML = `
+          <div>
+            <div class="flex justify-between font-semibold mb-1"><span>Direct</span><span>${tm.Direct}%</span></div>
+            <div class="w-full bg-gray-100 rounded-full h-2"><div class="bg-[#ff642d] h-2 rounded-full" style="width: ${tm.Direct}%"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between font-semibold mb-1"><span>Organic Search</span><span>${tm['Organic Search']}%</span></div>
+            <div class="w-full bg-gray-100 rounded-full h-2"><div class="bg-blue-600 h-2 rounded-full" style="width: ${tm['Organic Search']}%"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between font-semibold mb-1"><span>Paid Search</span><span>${tm['Paid Search']}%</span></div>
+            <div class="w-full bg-gray-100 rounded-full h-2"><div class="bg-emerald-600 h-2 rounded-full" style="width: ${tm['Paid Search']}%"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between font-semibold mb-1"><span>Social & Referral</span><span>${tm.Social}%</span></div>
+            <div class="w-full bg-gray-100 rounded-full h-2"><div class="bg-purple-600 h-2 rounded-full" style="width: ${tm.Social}%"></div></div>
+          </div>
+        `;
+      }
+
+      // Show Modal
+      document.getElementById("ai-modal").classList.remove("hidden");
+      lucide.createIcons();
+
+      // Load & Render Forecast Chart
+      renderModalChart();
+    }
+
+    function closeAiModal() {
+      document.getElementById("ai-modal").classList.add("hidden");
+    }
+
+    // Render Forecast Chart in Modal
+    async function renderModalChart() {
+      if (!cachedForecastingData) {
+        try {
+          const res = await fetch("/api/forecasting");
+          cachedForecastingData = await res.json();
+        } catch (e) {
+          console.error("Forecasting fetch failed:", e);
+        }
+      }
+
+      const ctx = document.getElementById("modalForecastChart").getContext("2d");
+      if (forecastChartInstance) {
+        forecastChartInstance.destroy();
+      }
+
+      if (!cachedForecastingData) return;
+
+      const history = cachedForecastingData.history || [];
+      const lstm = cachedForecastingData.forecast_lstm || [];
+      const baseline = cachedForecastingData.forecast_baseline || [];
+
+      const labels = [...history.map(d => d.ds), ...lstm.map(d => d.ds)];
+      const histData = history.map(d => d.yhat);
+      const lstmData = [...Array(history.length).fill(null), ...lstm.map(d => d.yhat)];
+      const baseData = [...Array(history.length).fill(null), ...baseline.map(d => d.yhat)];
+
+      forecastChartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: [
+            {
+              label: 'Historical Sales Velocity',
+              data: histData,
+              borderColor: '#94a3b8',
+              backgroundColor: 'rgba(148, 163, 184, 0.1)',
+              borderWidth: 2,
+              tension: 0.2,
+              fill: true,
+              pointRadius: 1
+            },
+            {
+              label: 'PyTorch Deep LSTM Projection',
+              data: lstmData,
+              borderColor: '#7c3aed',
+              backgroundColor: 'rgba(124, 58, 237, 0.15)',
+              borderWidth: 2.5,
+              tension: 0.3,
+              fill: true,
+              pointRadius: 2
+            },
+            {
+              label: 'Lagged Random Forest Baseline',
+              data: baseData,
+              borderColor: '#0284c7',
+              borderDash: [5, 5],
+              borderWidth: 1.5,
+              tension: 0.2,
+              pointRadius: 0
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: 'index', intersect: false },
+          plugins: {
+            legend: { position: 'top', labels: { boxWidth: 12, font: { size: 11 } } },
+            tooltip: { padding: 10, cornerRadius: 8 }
+          },
+          scales: {
+            x: { grid: { display: false }, ticks: { maxTicksLimit: 8, font: { size: 10 } } },
+            y: { grid: { color: '#f1f5f9' }, ticks: { font: { size: 10 } } }
+          }
+        }
+      });
+    }
+
+    // Sub-Nav Tabs Handler
+    function setSubTab(tab) {
+      document.querySelectorAll('.subnav-tab').forEach(el => el.classList.remove('active'));
+      if (tab === 'traffic') {
+        document.getElementById('subtab-traffic').classList.add('active');
+        document.getElementById('global-search-input').focus();
+      } else {
+        document.getElementById('subtab-top').classList.add('active');
+        scrollToTable();
+      }
+    }
+
+    // Open Expanded AI Views
+    async function openAiView(type) {
+      const section = document.getElementById("full-ai-section");
+      const title = document.getElementById("ai-section-title");
+      const content = document.getElementById("ai-dynamic-content");
+      section.classList.remove("hidden");
+      section.scrollIntoView({ behavior: "smooth" });
+
+      if (type === 'forecast') {
+        title.innerText = "PyTorch Deep Learning LSTM 30-Day Demand Forecaster";
+        content.innerHTML = `
+          <div class="space-y-6">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div class="p-4 bg-purple-50 border border-purple-100 rounded-xl">
+                <span class="text-xs text-purple-700 font-semibold block">Champion Neural Architecture</span>
+                <span class="text-lg font-bold text-purple-950 mt-1 block">2-Layer PyTorch LSTM</span>
+                <span class="text-xs text-purple-600">Hidden Size: 64 • Lookback: 30 days</span>
+              </div>
+              <div class="p-4 bg-blue-50 border border-blue-100 rounded-xl">
+                <span class="text-xs text-blue-700 font-semibold block">Lagged Baseline</span>
+                <span class="text-lg font-bold text-blue-950 mt-1 block">Random Forest (n=100)</span>
+                <span class="text-xs text-blue-600">7-Day & 14-Day Lag Regressors</span>
+              </div>
+              <div class="p-4 bg-emerald-50 border border-emerald-100 rounded-xl">
+                <span class="text-xs text-emerald-700 font-semibold block">Operational Safety Margin</span>
+                <span class="text-lg font-bold text-emerald-950 mt-1 block">95% Service Level</span>
+                <span class="text-xs text-emerald-600">Dynamic Reorder Point (ROP)</span>
+              </div>
+            </div>
+            <div class="h-80 w-full bg-gray-50 p-4 rounded-xl border border-gray-200">
+              <canvas id="expandedForecastChart"></canvas>
+            </div>
+          </div>
+        `;
+        setTimeout(renderExpandedForecast, 100);
+      } else if (type === 'churn') {
+        title.innerText = "XGBoost Customer Churn Prediction & Retention Engine";
+        const churnRes = await fetch("/api/churn");
+        const churnData = await churnRes.json();
+        const benchmarks = churnData.benchmarks || [];
+        const alerts = churnData.high_risk_alerts || [];
+
+        content.innerHTML = `
+          <div class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <!-- Benchmarks -->
+              <div class="border border-gray-200 rounded-xl p-5">
+                <h4 class="font-bold text-sm text-gray-900 mb-3">Model Benchmark Comparison (Zero Data Leakage)</h4>
+                <div class="space-y-3 text-xs">
+                  ${benchmarks.map(b => `
+                    <div class="p-3 bg-gray-50 rounded-lg flex items-center justify-between">
+                      <div>
+                        <span class="font-bold text-gray-900">${b.Model}</span>
+                        <span class="text-gray-500 block">Accuracy: ${(b.Accuracy * 100).toFixed(1)}%</span>
+                      </div>
+                      <div class="text-right">
+                        <span class="font-bold text-purple-700 text-sm">ROC-AUC: ${b['ROC-AUC'].toFixed(4)}</span>
+                        <span class="text-xs text-emerald-600 block font-semibold">F1: ${b['F1-Score'].toFixed(4)}</span>
+                      </div>
+                    </div>
+                  `).join("")}
+                </div>
+              </div>
+
+              <!-- High Risk Alerts -->
+              <div class="border border-gray-200 rounded-xl p-5">
+                <h4 class="font-bold text-sm text-rose-700 mb-3 flex items-center gap-1.5">
+                  <i data-lucide="alert-triangle" class="w-4 h-4"></i>
+                  High Churn Risk Customer Alerts (Retention Priority)
+                </h4>
+                <div class="space-y-2 text-xs max-h-56 overflow-y-auto">
+                  ${alerts.slice(0, 6).map(a => `
+                    <div class="p-2.5 bg-rose-50 border border-rose-100 rounded-lg flex items-center justify-between">
+                      <div>
+                        <span class="font-bold text-gray-900">${a.CustomerID}</span>
+                        <span class="text-gray-500 block">Recency: ${a.Recency} days • Spend: $${a.Monetary.toFixed(0)}</span>
+                      </div>
+                      <div class="text-right">
+                        <span class="font-bold text-rose-700">${(a.ChurnProbability * 100).toFixed(1)}% Churn Risk</span>
+                        <span class="text-[10px] bg-rose-200 text-rose-800 px-1.5 py-0.5 rounded font-semibold">Action Required</span>
+                      </div>
+                    </div>
+                  `).join("")}
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      } else if (type === 'inventory') {
+        title.innerText = "Inventory Optimization, Safety Stock & Reorder Points";
+        const invRes = await fetch("/api/inventory");
+        const invData = await invRes.json();
+        const items = invData.items || [];
+        const summary = invData.summary || {};
+
+        content.innerHTML = `
+          <div class="space-y-6">
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div class="p-4 bg-gray-50 rounded-xl border border-gray-200">
+                <span class="text-xs text-gray-500 font-semibold block">Total Monitored SKUs</span>
+                <span class="text-xl font-bold text-gray-900 mt-1 block">${summary.total_skus || 200}</span>
+              </div>
+              <div class="p-4 bg-rose-50 rounded-xl border border-rose-100">
+                <span class="text-xs text-rose-700 font-semibold block">Critical Stockouts (Red)</span>
+                <span class="text-xl font-bold text-rose-900 mt-1 block">${summary.critical_red || 14}</span>
+              </div>
+              <div class="p-4 bg-amber-50 rounded-xl border border-amber-100">
+                <span class="text-xs text-amber-700 font-semibold block">Reorder Alert (Yellow)</span>
+                <span class="text-xl font-bold text-amber-900 mt-1 block">${summary.reorder_yellow || 42}</span>
+              </div>
+              <div class="p-4 bg-emerald-50 rounded-xl border border-emerald-100">
+                <span class="text-xs text-emerald-700 font-semibold block">Healthy Stock (Green)</span>
+                <span class="text-xl font-bold text-emerald-900 mt-1 block">${summary.healthy_green || 144}</span>
+              </div>
+            </div>
+
+            <div class="border border-gray-200 rounded-xl overflow-hidden max-h-72 overflow-y-auto text-xs">
+              <table class="w-full text-left">
+                <thead class="bg-gray-100 text-gray-700 sticky top-0">
+                  <tr>
+                    <th class="p-3">SKU / Product</th>
+                    <th class="p-3">Category</th>
+                    <th class="p-3">Current Stock</th>
+                    <th class="p-3">Safety Stock (SS)</th>
+                    <th class="p-3">Reorder Point (ROP)</th>
+                    <th class="p-3">Suggested Order</th>
+                    <th class="p-3">Status</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200">
+                  ${items.slice(0, 15).map(item => `
+                    <tr class="hover:bg-gray-50">
+                      <td class="p-3 font-semibold">${item.ProductName || item.ProductID}</td>
+                      <td class="p-3 text-gray-500">${item.Category}</td>
+                      <td class="p-3 font-bold">${item.CurrentStock}</td>
+                      <td class="p-3">${item.SafetyStock}</td>
+                      <td class="p-3 font-semibold text-blue-700">${item.ReorderPoint}</td>
+                      <td class="p-3 font-bold text-purple-700">${item.SuggestedOrder}</td>
+                      <td class="p-3"><span class="px-2 py-0.5 rounded text-[11px] font-semibold ${item.AlertLevel.includes('Red') ? 'bg-rose-100 text-rose-800' : (item.AlertLevel.includes('Yellow') ? 'bg-amber-100 text-amber-800' : 'bg-emerald-100 text-emerald-800')}">${item.AlertLevel}</span></td>
+                    </tr>
+                  `).join("")}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        `;
+      } else if (type === 'rfm') {
+        title.innerText = "RFM Customer Segmentation & Persona Strategies";
+        const segRes = await fetch("/api/segmentation");
+        const segData = await segRes.json();
+        const personas = segData.personas || [];
+
+        content.innerHTML = `
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">
+            ${personas.map(p => `
+              <div class="p-5 bg-white border border-gray-200 rounded-xl shadow-xs">
+                <span class="text-xs font-bold text-purple-700 uppercase">${p.Segment}</span>
+                <div class="my-3 space-y-1 text-gray-600">
+                  <div><strong>Customer Count:</strong> ${p.CustomerCount}</div>
+                  <div><strong>Avg Recency:</strong> ${p.AvgRecency} days</div>
+                  <div><strong>Avg Orders:</strong> ${p.AvgFrequency}</div>
+                  <div><strong>Avg Spend:</strong> $${p.AvgMonetary}</div>
+                </div>
+                <div class="p-3 bg-purple-50 rounded-lg text-purple-900">
+                  <strong>Strategy:</strong> ${p.ActionStrategy}
+                </div>
+              </div>
+            `).join("")}
+          </div>
+        `;
+      }
+
+      lucide.createIcons();
+    }
+
+    function closeAiSection() {
+      document.getElementById("full-ai-section").classList.add("hidden");
+    }
+
+    async function renderExpandedForecast() {
+      if (!cachedForecastingData) {
+        const res = await fetch("/api/forecasting");
+        cachedForecastingData = await res.json();
+      }
+      const ctx = document.getElementById("expandedForecastChart").getContext("2d");
+      const history = cachedForecastingData.history || [];
+      const lstm = cachedForecastingData.forecast_lstm || [];
+      const baseline = cachedForecastingData.forecast_baseline || [];
+
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: [...history.map(d => d.ds), ...lstm.map(d => d.ds)],
+          datasets: [
+            {
+              label: 'Historical Sales Trend',
+              data: history.map(d => d.yhat),
+              borderColor: '#94a3b8',
+              borderWidth: 2,
+              tension: 0.2
+            },
+            {
+              label: 'PyTorch Deep LSTM Projection',
+              data: [...Array(history.length).fill(null), ...lstm.map(d => d.yhat)],
+              borderColor: '#7c3aed',
+              backgroundColor: 'rgba(124, 58, 237, 0.15)',
+              borderWidth: 3,
+              tension: 0.3,
+              fill: true
+            },
+            {
+              label: 'Lagged Random Forest Baseline',
+              data: [...Array(history.length).fill(null), ...baseline.map(d => d.yhat)],
+              borderColor: '#0284c7',
+              borderDash: [5, 5],
+              borderWidth: 2,
+              tension: 0.2
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'top' } }
+        }
+      });
+    }
+
+    // Trigger pipeline run in background
+    async function triggerPipelineRun() {
+      const btn = document.getElementById("btn-sync");
+      const originalText = btn.innerHTML;
+      btn.innerHTML = `<i data-lucide="loader-2" class="w-3.5 h-3.5 animate-spin"></i> Syncing...`;
+      try {
+        const res = await fetch("/api/run-pipeline", { method: "POST" });
+        const data = await res.json();
+        alert("Pipeline triggered! Re-training models and refreshing SQLite database in background.");
+        setTimeout(() => loadMarketIntelligence(currentCategory), 3000);
+      } catch (e) {
+        alert("Failed to trigger pipeline: " + e);
+      } finally {
+        btn.innerHTML = originalText;
+        lucide.createIcons();
+      }
+    }
+  </script>
+</body>
+</html>

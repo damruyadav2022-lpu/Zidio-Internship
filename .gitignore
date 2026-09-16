@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases (Include pre-built retailpulse.db for instant cloud deployment)
+*.sqlite
+*.db-shm
+*.db-wal
+!retailpulse.db
+
+# Logs and runtime artifacts
+*.log
+.system_generated/
+
+# Models and serialization (Include trained models for cloud deployment)
+!models/*.pkl
+!models/*.pt
+!models/*.joblib
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Dependencies & Build artifacts
+node_modules/
+frontend/node_modules/
+.pytest_cache/
+
+# Backups & Temporary Disaster Recovery Snapshots
+backups/
+*.pre_restore_bak
+*.temp_verify
+
+# OS metadata
+.DS_Store
+Thumbs.db

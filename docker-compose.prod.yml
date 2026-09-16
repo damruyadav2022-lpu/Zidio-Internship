@@ -1,0 +1,86 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:1.25-alpine
+    container_name: retailpulse_nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - certbot_conf:/etc/letsencrypt:ro
+      - certbot_www:/var/www/certbot:ro
+    depends_on:
+      - web
+    networks:
+      - retailpulse_network
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: retailpulse_app_prod
+    restart: unless-stopped
+    expose:
+      - "8000"
+    environment:
+      - ENVIRONMENT=production
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-retailpulse_admin}:${POSTGRES_PASSWORD:-SuperSecretPostgresPass2026}@db:5432/${POSTGRES_DB:-retailpulse_prod}
+      - REDIS_URL=redis://redis:6379/0
+      - JWT_SECRET=${JWT_SECRET:-production_enterprise_jwt_secret_key_2026_retailpulse}
+      - SHOPIFY_API_KEY=${SHOPIFY_API_KEY:-live_shopify_key}
+      - SHOPIFY_API_SECRET=${SHOPIFY_API_SECRET:-live_shopify_secret}
+      - RAZORPAY_KEY_ID=${RAZORPAY_KEY_ID:-rzp_live_key}
+      - RAZORPAY_KEY_SECRET=${RAZORPAY_KEY_SECRET:-rzp_live_secret}
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - retailpulse_network
+
+  db:
+    image: postgres:16-alpine
+    container_name: retailpulse_postgres_prod
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-retailpulse_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-SuperSecretPostgresPass2026}
+      POSTGRES_DB: ${POSTGRES_DB:-retailpulse_prod}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-retailpulse_admin} -d ${POSTGRES_DB:-retailpulse_prod}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - retailpulse_network
+
+  redis:
+    image: redis:7-alpine
+    container_name: retailpulse_redis_prod
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - retailpulse_network
+
+volumes:
+  postgres_data:
+  redis_data:
+  certbot_conf:
+  certbot_www:
+
+networks:
+  retailpulse_network:
+    driver: bridge
