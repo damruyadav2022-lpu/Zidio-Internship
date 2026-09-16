@@ -39,7 +39,10 @@ class Settings(BaseSettings):
             "https://www.retailpulse.in",
             "https://api.retailpulse.in",
             "https://app.retailpulse.ai",
-            "https://retailpulse.ai"
+            "https://retailpulse.ai",
+            "https://damru123-retailpulse.hf.space",
+            "https://*.hf.space",
+            "https://*.onrender.com"
         ],
         description="Allowed CORS origin domains"
     )

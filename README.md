@@ -1,3 +1,13 @@
+---
+title: RetailPulse Enterprise
+emoji: 🛒
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # RetailPulse Enterprise: AI-Powered Retail Intelligence & Demand Forecasting SaaS
 
 [![CI/CD Pipeline](https://github.com/damruyadav2022-lpu/Zidio-Internship/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/damruyadav2022-lpu/Zidio-Internship/actions)
